@@ -1,4 +1,13 @@
+
+
 ## Kozel Software by Dry.com
+
+[![Join our Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hidden_coding)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aero25x)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/aero25x)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@flaming_chameleon)
+
+
 
 **Kozel** is your all-in-one crypto companion, meticulously crafted to streamline your interaction with daily crypto tasks. Whether you're a seasoned trader or a casual user, Kozel is designed to be both powerful and adaptable, catering to your unique needs and preferences.
 
@@ -80,9 +89,15 @@ If you need to consolidate your DOGS and USDT from various wallets into one prim
 3. **Введите Данные**: Введите адрес контракта токена, количество для перевода (например, 55.5, 100, 6789 или MAX) и адрес получателя.
 4. **Запустите Перевод**: Начните процесс и насладитесь простотой и эффективностью Kozel.
 
+[![Join our Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hidden_coding)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aero25x)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/aero25x)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@flaming_chameleon)
+
+
 ---
 
-### README in Other Popular Languages (e.g., Spanish, French, German)
+### Spanish, French, German
 
 ---
 
@@ -155,3 +170,9 @@ Wenn du DOGS und USDT von verschiedenen Wallets in eine Haupt-Wallet konsolidier
 2. **Wähle Netzwerk**: Gib das Netzwerk für die Übertragung an.
 3. **Gib Details ein**: Gib die Token-Vertragsadresse, die Menge (z. B. 55.5, 100, 6789 oder MAX) und die Adresse des Empfängers ein.
 4. **Starte Übertragung**: Beginne den Prozess und erlebe die Einfachheit und Effizienz von Kozel.
+
+[![Join our Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hidden_coding)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aero25x)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/aero25x)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@flaming_chameleon)
+
