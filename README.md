@@ -38,6 +38,7 @@ For detailed software insights, check out the following links:
 - [Software Information 2](https://t.me/hidden_coding/175)
 
 ### Token Transfer Guide
+![image](https://github.com/user-attachments/assets/cc5d9725-6cd8-49b3-9ac5-8dd6c3bd2c04)
 
 If you need to consolidate your DOGS and USDT from various wallets into one primary wallet, follow these steps:
 
@@ -83,6 +84,7 @@ If you need to consolidate your DOGS and USDT from various wallets into one prim
 ### Руководство по Переводу Токенов
 
 Если вам нужно объединить DOGS и USDT из различных кошельков в один основной кошелек, выполните следующие шаги:
+![image](https://github.com/user-attachments/assets/e297cd6c-9ddd-4e07-b8fe-759f0862ad7c)
 
 1. **Выберите Кошельки**: Выберите кошельки, из которых хотите перевести активы.
 2. **Выберите Сеть**: Укажите сеть для перевода.
