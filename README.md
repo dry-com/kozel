@@ -97,6 +97,8 @@ If you need to consolidate your DOGS and USDT from various wallets into one prim
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@flaming_chameleon)
 
 
+![image](https://github.com/user-attachments/assets/a828a5d8-9610-483a-82f8-cc9b5d9700a7)
+
 ---
 
 ### Spanish, French, German
