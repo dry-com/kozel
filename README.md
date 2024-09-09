@@ -99,6 +99,8 @@ If you need to consolidate your DOGS and USDT from various wallets into one prim
 
 ![image](https://github.com/user-attachments/assets/a828a5d8-9610-483a-82f8-cc9b5d9700a7)
 
+![image](https://github.com/user-attachments/assets/5248b4c0-7a5e-45a4-b3a6-195b1929ba60)
+
 ---
 
 ### Spanish, French, German
