@@ -38,7 +38,7 @@
 ## Linux
 
 1. Скачайте Docker по ссылке - [Docker Documentation](https://docs.docker.com/desktop/setup/install/linux/).
-2. Запустите эти команды в консоли:
+2. Или запустите эти команды в консоли:
    ```bash
    sudo apt update
    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
