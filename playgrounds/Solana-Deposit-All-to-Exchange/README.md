@@ -1,4 +1,4 @@
-# Solana Deposit All to Exchanges
+# Solana Deposit All tokens to Exchanges
 
 Just import this playground into Kozel and collect all tokens such as USDC
 
