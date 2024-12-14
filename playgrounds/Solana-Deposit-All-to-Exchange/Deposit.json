@@ -1,0 +1,156 @@
+{
+  "id": "8a92e5af-0942-48fb-85be-92319ec48203",
+  "screenshot": null,
+  "nodes": [
+    {
+      "id": "1",
+      "type": "start",
+      "position": {
+        "x": 53.72196562395402,
+        "y": 456.20418137173965
+      },
+      "data": {
+        "label": "Start",
+        "value": 0
+      },
+      "measured": {
+        "width": 300,
+        "height": 119
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "type": "finish",
+      "position": {
+        "x": 2251.303362131547,
+        "y": 643.4588354671018
+      },
+      "data": {
+        "label": "Finish",
+        "task": "Deposit"
+      },
+      "measured": {
+        "width": 150,
+        "height": 80
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "3",
+      "data": {
+        "label": "wallet"
+      },
+      "position": {
+        "x": 501.9055380233218,
+        "y": 315.90238347422235
+      },
+      "type": "wallet",
+      "measured": {
+        "width": 303,
+        "height": 517
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "10",
+      "data": {
+        "label": "swtNetwork",
+        "value": {
+          "network": "SOL"
+        }
+      },
+      "position": {
+        "x": 939.4300895098208,
+        "y": 453.1547646916498
+      },
+      "type": "swtNetwork",
+      "measured": {
+        "width": 303,
+        "height": 221
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "11",
+      "data": {
+        "label": "depositCex"
+      },
+      "position": {
+        "x": 1787.5579968714908,
+        "y": 744.2928565243446
+      },
+      "type": "depositCex",
+      "measured": {
+        "width": 303,
+        "height": 501
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "12",
+      "data": {
+        "label": "delay",
+        "value": {
+          "delayBetween": 100,
+          "delayFrom": 100,
+          "delayTo": 150,
+          "typeDelay": "Progress"
+        }
+      },
+      "position": {
+        "x": 1394.6107143536185,
+        "y": 356.0043436568724
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 531
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": "start",
+      "target": "3",
+      "targetHandle": "wallet",
+      "id": "xy-edge__1start-3wallet"
+    },
+    {
+      "source": "3",
+      "sourceHandle": "wallet",
+      "target": "10",
+      "targetHandle": "swtNetwork",
+      "id": "xy-edge__3wallet-10swtNetwork"
+    },
+    {
+      "source": "10",
+      "sourceHandle": "swtNetwork",
+      "target": "12",
+      "targetHandle": "delay",
+      "id": "xy-edge__10swtNetwork-12delay"
+    },
+    {
+      "source": "12",
+      "sourceHandle": "delay",
+      "target": "11",
+      "targetHandle": "depositCex",
+      "id": "xy-edge__12delay-11depositCex"
+    },
+    {
+      "source": "11",
+      "sourceHandle": "depositCex",
+      "target": "2",
+      "targetHandle": "finish",
+      "id": "xy-edge__11depositCex-2finish"
+    }
+  ]
+}
