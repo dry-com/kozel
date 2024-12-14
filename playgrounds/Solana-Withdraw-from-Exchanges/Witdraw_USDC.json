@@ -1,0 +1,187 @@
+{
+  "id": "dc32e503-b39c-4822-be4e-4f17f00fd8a2",
+  "screenshot": null,
+  "nodes": [
+    {
+      "id": "1",
+      "type": "start",
+      "position": {
+        "x": -166.33333333333334,
+        "y": 398.3333333333333
+      },
+      "data": {
+        "label": "Start",
+        "value": 0
+      },
+      "measured": {
+        "width": 300,
+        "height": 119
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "type": "finish",
+      "position": {
+        "x": 1897.2108175775136,
+        "y": 477.5771932190012
+      },
+      "data": {
+        "label": "Finish",
+        "task": "Witdraw"
+      },
+      "measured": {
+        "width": 150,
+        "height": 80
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "3",
+      "data": {
+        "label": "wallet"
+      },
+      "position": {
+        "x": 219.56083284978598,
+        "y": 223.27859519694832
+      },
+      "type": "wallet",
+      "measured": {
+        "width": 303,
+        "height": 517
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "data": {
+        "label": "swtNetwork",
+        "value": {
+          "network": "SOL"
+        }
+      },
+      "position": {
+        "x": 598.4793007848087,
+        "y": 266.471656288995
+      },
+      "type": "swtNetwork",
+      "measured": {
+        "width": 303,
+        "height": 221
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "5",
+      "data": {
+        "label": "withdrawCex"
+      },
+      "position": {
+        "x": 1393.7981542147104,
+        "y": 281.3996865647622
+      },
+      "type": "withdrawCex",
+      "measured": {
+        "width": 303,
+        "height": 469
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "6",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Amount",
+          "amountFrom": 500,
+          "amountTo": 600,
+          "expired": 1733270332943
+        }
+      },
+      "position": {
+        "x": 632,
+        "y": 683.9593174077044
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "7",
+      "data": {
+        "label": "delay",
+        "value": {
+          "delayBetween": 100,
+          "delayFrom": 150,
+          "delayTo": 200,
+          "typeDelay": "Progress"
+        }
+      },
+      "position": {
+        "x": 976.8724394374327,
+        "y": 111.6946714425128
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 531
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": "start",
+      "target": "3",
+      "targetHandle": "wallet",
+      "id": "xy-edge__1start-3wallet"
+    },
+    {
+      "source": "3",
+      "sourceHandle": "wallet",
+      "target": "4",
+      "targetHandle": "swtNetwork",
+      "id": "xy-edge__3wallet-4swtNetwork"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "withdrawCex",
+      "target": "2",
+      "targetHandle": "finish",
+      "id": "xy-edge__5withdrawCex-2finish"
+    },
+    {
+      "source": "6",
+      "sourceHandle": "random",
+      "target": "5",
+      "targetHandle": "amount",
+      "animated": true,
+      "id": "xy-edge__6random-5amount"
+    },
+    {
+      "source": "4",
+      "sourceHandle": "swtNetwork",
+      "target": "7",
+      "targetHandle": "delay",
+      "id": "xy-edge__4swtNetwork-7delay"
+    },
+    {
+      "source": "7",
+      "sourceHandle": "delay",
+      "target": "5",
+      "targetHandle": "withdrawCex",
+      "id": "xy-edge__7delay-5withdrawCex"
+    }
+  ]
+}
