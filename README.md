@@ -180,7 +180,7 @@ https://github.com/user-attachments/assets/ecf012a7-8039-4d7e-b5ba-37651c25eb7b
       </td>
       <td>✅</td>
       <td>✅</td>
-      <td>⚙️</td>
+      <td>🧪</td>
       <td>⚙️</td>
     </tr>
     <!-- SCROLL -->
@@ -235,7 +235,7 @@ https://github.com/user-attachments/assets/ecf012a7-8039-4d7e-b5ba-37651c25eb7b
       </td>
       <td>✅</td>
       <td>✅</td>
-      <td>⚙️</td>
+      <td>🧪</td>
       <td>⚙️</td>
     </tr>
     <!-- OPBNB -->
