@@ -26,6 +26,248 @@ https://github.com/user-attachments/assets/ecf012a7-8039-4d7e-b5ba-37651c25eb7b
 5. **Customizable Plugins**: Export your custom tasks and trade or share them with others. We also offer a variety of plugins, both free and paid, available through our Telegram channel. Plugins can include everything from retro warm-ups to arbitrage strategies, giving you endless possibilities.
 6. **Arbitrage Solutions**: Leverage our built-in arbitrage plugin to automate your arbitrage strategies. Simply input your arbitrage chain, and let Kozel handle the rest.
 
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Network</th>
+      <th>Transfer Native</th>
+      <th>Transfer ERC20</th>
+      <th>DEX Swap</th>
+      <th>Bridges</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Ethereum with custom statuses -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png" alt="Ethereum Logo" width="20" height="20">
+        ETH
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <!-- BSC -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png" alt="BSC Logo" width="20" height="20">
+        BSC
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <!-- ARB -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/11841.png" alt="ARB Logo" width="20" height="20">
+        ARB
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <!-- BASE -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/27716.png" alt="BASE Logo" width="20" height="20">
+        BASE
+      </td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <!-- AVAX -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png" alt="AVAX Logo" width="20" height="20">
+        AVAX
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <!-- POLYGON -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/28321.png" alt="POLYGON Logo" width="20" height="20">
+        POLYGON
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <!-- OPTIMISM -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/11840.png" alt="OPTIMISM Logo" width="20" height="20">
+        OPTIMISM
+      </td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <!-- LINEA -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/27657.png" alt="LINEA Logo" width="20" height="20">
+        LINEA
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <!-- TON -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/11419.png" alt="TON Logo" width="20" height="20">
+        TON
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <!-- COSMOS -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png" alt="COSMOS Logo" width="20" height="20">
+        COSMOS
+      </td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <!-- TRX -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png" alt="TRX Logo" width="20" height="20">
+        TRX
+      </td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <!-- SOL -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png" alt="SOL Logo" width="20" height="20">
+        SOL
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>⚙️</td>
+      <td>⚙️</td>
+    </tr>
+    <!-- ZKSYNC -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/24091.png" alt="ZKSYNC Logo" width="20" height="20">
+        ZKSYNC
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>⚙️</td>
+      <td>⚙️</td>
+    </tr>
+    <!-- SCROLL -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/26998.png" alt="SCROLL Logo" width="20" height="20">
+        SCROLL
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>⚙️</td>
+      <td>⚙️</td>
+    </tr>
+    <!-- ZKPOLYGON -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/28321.png" alt="ZKPOLYGON Logo" width="20" height="20">
+        ZKPOLYGON
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>⚙️</td>
+      <td>⚙️</td>
+    </tr>
+    <!-- CELO -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/5567.png" alt="CELO Logo" width="20" height="20">
+        CELO
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>⚙️</td>
+      <td>⚙️</td>
+    </tr>
+    <!-- METIS -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png" alt="METIS Logo" width="20" height="20">
+        METIS
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>⚙️</td>
+      <td>⚙️</td>
+    </tr>
+    <!-- BLAST -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/28480.png" alt="BLAST Logo" width="20" height="20">
+        BLAST
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>⚙️</td>
+      <td>⚙️</td>
+    </tr>
+    <!-- OPBNB -->
+    <tr>
+      <td>
+        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png" alt="OPBNB Logo" width="20" height="20">
+        OPBNB
+      </td>
+      <td>✅</td>
+      <td>✅</td>
+      <td>⚙️</td>
+      <td>⚙️</td>
+    </tr>
+  </tbody>
+</table>
+
+
+✅ - All works
+
+⚙️ - Under developement
+
+❌ - Not work
+
+🧪 - Beta testing
+
+
+
+---
+
+
+
+
 ### Recent Updates
 
 - **TON Transfer Automation**: We've successfully automated transfers on the TON network. You can now perform seamless transactions across EVM networks (ETH, BSC, ARB, POLYGON, etc.), as well as on TON and Solana.
