@@ -79,10 +79,10 @@ https://github.com/user-attachments/assets/ecf012a7-8039-4d7e-b5ba-37651c25eb7b
         <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/27716.png" alt="BASE Logo" width="20" height="20">
         BASE
       </td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
+      <td>🧪</td>
+      <td>🧪</td>
+      <td>🧪</td>
+      <td>🧪</td>
     </tr>
     <!-- AVAX -->
     <tr>
@@ -112,10 +112,10 @@ https://github.com/user-attachments/assets/ecf012a7-8039-4d7e-b5ba-37651c25eb7b
         <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/11840.png" alt="OPTIMISM Logo" width="20" height="20">
         OPTIMISM
       </td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
+      <td>🧪</td>
+      <td>🧪</td>
+      <td>🧪</td>
+      <td>🧪</td>
     </tr>
     <!-- LINEA -->
     <tr>
