@@ -1,7 +1,7 @@
 {
   "id": "dc32e503-b39c-4822-be4e-4f17f00fd8a2",
   "screenshot": null,
-  "name": "Withdraw USDC",
+  "name": "Withdraw USDC(Solana) from Exchanges",
   "nodes": [
     {
       "id": "1",
