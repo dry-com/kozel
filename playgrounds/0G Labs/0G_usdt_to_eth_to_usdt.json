@@ -1,0 +1,444 @@
+{
+  "name": "0G_usdt_eth_usdt",
+  "id": "c1919ceb-1cbd-48a4-9ea9-4a601db3d5ef",
+  "screenshot": null,
+  "nodes": [
+    {
+      "id": "1",
+      "type": "start",
+      "position": {
+        "x": -1211.9438352204597,
+        "y": 192.78463868068937
+      },
+      "data": {
+        "label": "Start",
+        "value": 0
+      },
+      "measured": {
+        "width": 300,
+        "height": 119
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "type": "finish",
+      "position": {
+        "x": 4639.503053921554,
+        "y": 840.824312010022
+      },
+      "data": {
+        "label": "Finish",
+        "task": "0G_mint_btc_sell"
+      },
+      "measured": {
+        "width": 150,
+        "height": 80
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "3",
+      "data": {
+        "label": "wallet"
+      },
+      "position": {
+        "x": -815.2870932069313,
+        "y": -10.562511082802146
+      },
+      "type": "wallet",
+      "measured": {
+        "width": 303,
+        "height": 517
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "data": {
+        "label": "swtNetwork",
+        "value": {
+          "network": "0G",
+          "value": 16600,
+          "type_order": "0x0"
+        }
+      },
+      "position": {
+        "x": -809.5220790677912,
+        "y": 561.8951110136768
+      },
+      "type": "swtNetwork",
+      "measured": {
+        "width": 303,
+        "height": 367
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "5",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayBetween": 7,
+          "delayFrom": 1,
+          "delayTo": 10,
+          "typeDelay": "Progress"
+        }
+      },
+      "position": {
+        "x": -131.58746440278088,
+        "y": -106.89950672470067
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 531
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "8",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xce830d0905e0f7a9b300401729761579c5fb6bd6"
+          },
+          "dex": "eth: approve",
+          "msg": "0x095ea7b3000000000000000000000000d86b764618c6e3c078845be3c3fce50ce9535da7<eth: eth_balance>"
+        }
+      },
+      "position": {
+        "x": 755.0117138937242,
+        "y": 849.5941434074487
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "9",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 800,
+          "delayTo": 1600,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": -20.427603193561254,
+        "y": 851.6932521195075
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "10",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "0G",
+          "to": {
+            "random": false,
+            "token": "0xce830d0905e0f7a9b300401729761579c5fb6bd6"
+          },
+          "symbol": "eth: eth_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 350.24551236496086,
+        "y": 877.8042812056815
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "11",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xD86b764618c6E3C078845BE3c3fCe50CE9535Da7"
+          },
+          "dex": "eth: swap",
+          "msg": "0x414bf389000000000000000000000000ce830d0905e0f7a9b300401729761579c5fb6bd60000000000000000000000009a87c2412d500343c073e5ae5394e3be3874f76b0000000000000000000000000000000000000000000000000000000000000bb8<addr><deadline><eth: eth_balance>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 1963.864393031359,
+        "y": 836.5992914914367
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "12",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 1500,
+          "delayTo": 2500,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1133.4062387016654,
+        "y": 997.3209404922884
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "13",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "0G",
+          "to": {
+            "random": false,
+            "token": "0x9a87c2412d500343c073e5ae5394e3be3874f76b"
+          },
+          "symbol": "eth: eth_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 320.26326357295574,
+        "y": -83.58092949324245
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "14",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x9a87c2412d500343c073e5ae5394e3be3874f76b"
+          },
+          "dex": "eth: approve",
+          "msg": "0x095ea7b3000000000000000000000000e233d75ce6f04c04610947188dec7c55790bef3b<eth: eth_balance>"
+        }
+      },
+      "position": {
+        "x": 757.3012270489545,
+        "y": -96.71330913880598
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "15",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 800,
+          "delayTo": 1600,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1183.1327468034797,
+        "y": -14.492259261908975
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "16",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xE233D75Ce6f04C04610947188DEC7C55790beF3b"
+          },
+          "dex": "eth: swap",
+          "msg": "0x414bf3890000000000000000000000009a87c2412d500343c073e5ae5394e3be3874f76b000000000000000000000000ce830d0905e0f7a9b300401729761579c5fb6bd60000000000000000000000000000000000000000000000000000000000000bb8<addr><deadline><eth: eth_balance>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 1646.62629960548,
+        "y": -94.53726076705007
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": "start",
+      "target": "3",
+      "targetHandle": "wallet",
+      "id": "xy-edge__1start-3wallet"
+    },
+    {
+      "source": "3",
+      "sourceHandle": "wallet",
+      "target": "4",
+      "targetHandle": "swtNetwork",
+      "id": "xy-edge__3wallet-4swtNetwork"
+    },
+    {
+      "source": "4",
+      "sourceHandle": "swtNetwork",
+      "target": "5",
+      "targetHandle": "delay",
+      "id": "xy-edge__4swtNetwork-5delay"
+    },
+    {
+      "source": "9",
+      "sourceHandle": "delay",
+      "target": "10",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__9delay-10reqRpc",
+      "selected": false
+    },
+    {
+      "source": "10",
+      "sourceHandle": "reqRpc",
+      "target": "8",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__10reqRpc-8anyExecute",
+      "selected": false
+    },
+    {
+      "source": "8",
+      "sourceHandle": "anyExecute",
+      "target": "12",
+      "targetHandle": "delay",
+      "id": "xy-edge__8anyExecute-12delay",
+      "selected": false
+    },
+    {
+      "source": "11",
+      "sourceHandle": "anyExecute",
+      "target": "2",
+      "targetHandle": "finish",
+      "id": "xy-edge__11anyExecute-2finish",
+      "selected": false
+    },
+    {
+      "source": "13",
+      "sourceHandle": "reqRpc",
+      "target": "14",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__13reqRpc-14anyExecute"
+    },
+    {
+      "source": "14",
+      "sourceHandle": "anyExecute",
+      "target": "15",
+      "targetHandle": "delay",
+      "id": "xy-edge__14anyExecute-15delay"
+    },
+    {
+      "source": "15",
+      "sourceHandle": "delay",
+      "target": "16",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__15delay-16anyExecute"
+    },
+    {
+      "source": "16",
+      "sourceHandle": "anyExecute",
+      "target": "9",
+      "targetHandle": "delay",
+      "id": "xy-edge__16anyExecute-9delay"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "delay",
+      "target": "13",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__5delay-13reqRpc"
+    },
+    {
+      "source": "12",
+      "sourceHandle": "delay",
+      "target": "11",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__12delay-11anyExecute"
+    }
+  ]
+}

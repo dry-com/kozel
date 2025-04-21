@@ -1,0 +1,1296 @@
+{
+  "name": "0G",
+  "id": "c747c4f3-2124-4b1a-ba58-40739bd108a5",
+  "screenshot": null,
+  "nodes": [
+    {
+      "id": "1",
+      "type": "start",
+      "position": {
+        "x": -8,
+        "y": 300
+      },
+      "data": {
+        "label": "Start",
+        "value": 0
+      },
+      "measured": {
+        "width": 300,
+        "height": 119
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "type": "finish",
+      "position": {
+        "x": 6779.617578116951,
+        "y": 1298.6704912112214
+      },
+      "data": {
+        "label": "Finish",
+        "task": "0gLabs"
+      },
+      "measured": {
+        "width": 150,
+        "height": 80
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "3",
+      "data": {
+        "label": "wallet"
+      },
+      "position": {
+        "x": 351.66195190947656,
+        "y": 105.13154172560112
+      },
+      "type": "wallet",
+      "measured": {
+        "width": 303,
+        "height": 517
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "data": {
+        "label": "swtNetwork",
+        "value": {
+          "network": "0G",
+          "value": 16600,
+          "type_order": "0x0"
+        }
+      },
+      "position": {
+        "x": 670.6839092483117,
+        "y": 207.8752165929966
+      },
+      "type": "swtNetwork",
+      "measured": {
+        "width": 303,
+        "height": 367
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "5",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "0G",
+          "to": {
+            "random": false,
+            "token": "0x9a87c2412d500343c073e5ae5394e3be3874f76b"
+          },
+          "symbol": "ZEROX_ETH: usdt_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 1008.8987013265619,
+        "y": 873.1655611186912
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "6",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x9a87c2412d500343c073e5ae5394e3be3874f76b"
+          },
+          "dex": "ZEROX_ETH: Approve_USDT",
+          "msg": "0x095ea7b3000000000000000000000000e233d75ce6f04c04610947188dec7c55790bef3b<ZEROX_ETH: usdt_balance>"
+        }
+      },
+      "position": {
+        "x": 1404.7015996760945,
+        "y": 524.8292777790547
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "7",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xe233d75ce6f04c04610947188dec7c55790bef3b"
+          },
+          "dex": "ZEROX_ETH: USDT_ETH",
+          "msg": "0x414bf3890000000000000000000000009a87c2412d500343c073e5ae5394e3be3874f76b000000000000000000000000ce830d0905e0f7a9b300401729761579c5fb6bd60000000000000000000000000000000000000000000000000000000000002710<addr><deadline><ZEROX_ETH: usdt_balance>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 1740.784527454,
+        "y": 526.3635676483432
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "8",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "to": {
+            "random": false,
+            "token": "0xce830d0905e0f7a9b300401729761579c5fb6bd6"
+          },
+          "symbol": "ZEROX_ETH: ETH_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 2091.0571402012383,
+        "y": 636.5437712434825
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "9",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xce830d0905e0f7a9b300401729761579c5fb6bd6"
+          },
+          "dex": "ZEROX_ETH: Approve_ETH",
+          "msg": "0x095ea7b3000000000000000000000000e233d75ce6f04c04610947188dec7c55790bef3b<ZEROX_ETH: ETH_balance>"
+        }
+      },
+      "position": {
+        "x": 2451.8249492723617,
+        "y": 529.775046079806
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "10",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xe233d75ce6f04c04610947188dec7c55790bef3b"
+          },
+          "dex": "ZEROX_ETH: ETH_USDT",
+          "msg": "0x414bf389000000000000000000000000ce830d0905e0f7a9b300401729761579c5fb6bd60000000000000000000000009a87c2412d500343c073e5ae5394e3be3874f76b0000000000000000000000000000000000000000000000000000000000002710<addr><deadline><ZEROX_ETH: eth_balance>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 2838.5394427367896,
+        "y": 529.775046079806
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "11",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayBetween": 15,
+          "delayFrom": 1,
+          "delayTo": 60,
+          "typeDelay": "Progress"
+        }
+      },
+      "position": {
+        "x": 1012.9303418282764,
+        "y": -134.81926620338317
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 531
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "12",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 900,
+          "delayTo": 1800,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1414.0406181333678,
+        "y": -29.830946036395346
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "13",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 900,
+          "delayTo": 1800,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1771.921935434041,
+        "y": -24.5
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "14",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 1000,
+          "delayTo": 2000,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2147,
+        "y": -24.5
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "15",
+      "data": {
+        "label": "delay",
+        "value": {
+          "delayFrom": 400,
+          "delayTo": 1800,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2475,
+        "y": -23.488847919148668
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "16",
+      "data": {
+        "label": "delay",
+        "value": {
+          "delayFrom": 1000,
+          "delayTo": 2000,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2839,
+        "y": -24.5
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "17",
+      "data": {
+        "label": "delay",
+        "value": {
+          "delayFrom": 1800,
+          "delayTo": 8000,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3281.9598660553743,
+        "y": 666.8995428199852
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "19",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 300,
+          "delayTo": 800,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1783.7345604748864,
+        "y": 1169.2030630486752
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "20",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 1000,
+          "delayTo": 2000,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2132.612706074782,
+        "y": 1169.2030630486752
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "21",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 1000,
+          "delayTo": 2000,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2461.331813215473,
+        "y": 1164.8832690931313
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "22",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 300,
+          "delayTo": 800,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2797.2505769487375,
+        "y": 1200.8815520559983
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "23",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 300,
+          "delayTo": 800,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3156.2082417782367,
+        "y": 1179.2825822782781
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "24",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x9a87c2412d500343c073e5ae5394e3be3874f76b"
+          },
+          "dex": "ZEROX_BTC: Approve_USDT",
+          "msg": "0x095ea7b3000000000000000000000000e233d75ce6f04c04610947188dec7c55790bef3b<ZEROX_BTC: usdt_balance>"
+        }
+      },
+      "position": {
+        "x": 1383.5173964177166,
+        "y": 1685.4139205018919
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "25",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "0G",
+          "to": {
+            "random": false,
+            "token": "0x9a87c2412d500343c073e5ae5394e3be3874f76b"
+          },
+          "symbol": "ZEROX_BTC: usdt_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 1382.8199174083902,
+        "y": 1154.1270273733915
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "26",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xe233d75ce6f04c04610947188dec7c55790bef3b"
+          },
+          "dex": "ZEROX_BTC: USDT_BTC",
+          "msg": "0x414bf3890000000000000000000000009a87c2412d500343c073e5ae5394e3be3874f76b0000000000000000000000001e0d871472973c562650e991ed8006549f8cbefc0000000000000000000000000000000000000000000000000000000000000bb8<addr><deadline><ZEROX_BTC: usdt_balance>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 1746.959019247401,
+        "y": 1676.6886997267634
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "27",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "0G",
+          "to": {
+            "random": false,
+            "token": "0x1e0d871472973c562650e991ed8006549f8cbefc"
+          },
+          "symbol": "ZEROX_BTC: BTC_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 2089.551425950184,
+        "y": 1675.0540458481155
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "28",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x1e0d871472973c562650e991ed8006549f8cbefc"
+          },
+          "dex": "ZEROX_BTC: Approve_BTC",
+          "msg": "0x095ea7b3000000000000000000000000e233d75ce6f04c04610947188dec7c55790bef3b<ZEROX_BTC: BTC_balance>"
+        }
+      },
+      "position": {
+        "x": 2437.840402606557,
+        "y": 1677.5802983508254
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "29",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xe233d75ce6f04c04610947188dec7c55790bef3b"
+          },
+          "dex": "ZEROX_BTC: BTC_ETH",
+          "msg": "0x414bf3890000000000000000000000001e0d871472973c562650e991ed8006549f8cbefc000000000000000000000000ce830d0905e0f7a9b300401729761579c5fb6bd60000000000000000000000000000000000000000000000000000000000000bb8<addr><deadline><ZEROX_BTC: BTC_balance>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 2813.0354455228676,
+        "y": 1671.6405816619522
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "30",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "0G",
+          "to": {
+            "random": false,
+            "token": "0xce830d0905e0f7a9b300401729761579c5fb6bd6"
+          },
+          "symbol": "ZEROX_BTC: ETH_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 3385.904379132744,
+        "y": 1706.7325348554386
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "31",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xce830d0905e0f7a9b300401729761579c5fb6bd6"
+          },
+          "dex": "ZEROX_BTC: Approve_ETH",
+          "msg": "0x095ea7b3000000000000000000000000e233d75ce6f04c04610947188dec7c55790bef3b<ZEROX_BTC: ETH_balance>"
+        }
+      },
+      "position": {
+        "x": 3751.472531611293,
+        "y": 1702.059130765575
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "32",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xe233d75ce6f04c04610947188dec7c55790bef3b"
+          },
+          "dex": "ZEROX_BTC: ETH_USDT",
+          "msg": "0x414bf389000000000000000000000000ce830d0905e0f7a9b300401729761579c5fb6bd60000000000000000000000009a87c2412d500343c073e5ae5394e3be3874f76b0000000000000000000000000000000000000000000000000000000000000bb8<addr><deadline><ZEROX_BTC: ETH_balance>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 4135.307162438691,
+        "y": 1683.1600322100696
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "33",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 300,
+          "delayTo": 800,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3593.532596087359,
+        "y": 1221.040590515204
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "34",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 1000,
+          "delayTo": 2000,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3970.9685766528255,
+        "y": 1222.4805218337187
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "35",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 900,
+          "delayTo": 6000,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 4521.677898249502,
+        "y": 1274.3180493002474
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "36",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 1000,
+          "delayTo": 4000,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 5460.236113729077,
+        "y": 1079.4934440497907
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "37",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x9059cA87Ddc891b91e731C57D21809F1A4adC8D9"
+          },
+          "dex": "MINT_NFT1: mint",
+          "msg": "0x1249c58b"
+        }
+      },
+      "position": {
+        "x": 5066.754990865331,
+        "y": 1125.7056872598578
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "39",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x9059cA87Ddc891b91e731C57D21809F1A4adC8D9"
+          },
+          "dex": "MINT_NFT2: mint",
+          "msg": "0x1249c58b"
+        }
+      },
+      "position": {
+        "x": 5875.904161981465,
+        "y": 1117.1732227963341
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "40",
+      "data": {
+        "label": "delay",
+        "value": {
+          "delayFrom": 1000,
+          "delayTo": 4000,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 6326.236113729077,
+        "y": 1167.4934440497907
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "41",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x9a87c2412d500343c073e5ae5394e3be3874f76b"
+          },
+          "dex": "mint_usdt",
+          "msg": "0x1249c58b"
+        }
+      },
+      "position": {
+        "x": 327.3116903576507,
+        "y": 869.3051738340782
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "42",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayFrom": 1800,
+          "delayTo": 3600,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 653.0453005867699,
+        "y": 887.7467220458237
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "3",
+      "sourceHandle": "wallet",
+      "target": "4",
+      "targetHandle": "swtNetwork",
+      "id": "xy-edge__3wallet-4swtNetwork"
+    },
+    {
+      "source": "4",
+      "sourceHandle": "swtNetwork",
+      "target": "11",
+      "targetHandle": "delay",
+      "id": "xy-edge__4swtNetwork-11delay"
+    },
+    {
+      "source": "1",
+      "sourceHandle": "start",
+      "target": "3",
+      "targetHandle": "wallet",
+      "id": "xy-edge__1start-3wallet"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "reqRpc",
+      "target": "12",
+      "targetHandle": "delay",
+      "id": "xy-edge__5reqRpc-12delay",
+      "selected": false
+    },
+    {
+      "source": "12",
+      "sourceHandle": "delay",
+      "target": "6",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__12delay-6anyExecute",
+      "selected": false
+    },
+    {
+      "source": "6",
+      "sourceHandle": "anyExecute",
+      "target": "13",
+      "targetHandle": "delay",
+      "id": "xy-edge__6anyExecute-13delay",
+      "selected": false
+    },
+    {
+      "source": "13",
+      "sourceHandle": "delay",
+      "target": "7",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__13delay-7anyExecute",
+      "selected": false
+    },
+    {
+      "source": "7",
+      "sourceHandle": "anyExecute",
+      "target": "14",
+      "targetHandle": "delay",
+      "id": "xy-edge__7anyExecute-14delay",
+      "selected": false
+    },
+    {
+      "source": "8",
+      "sourceHandle": "reqRpc",
+      "target": "15",
+      "targetHandle": "delay",
+      "id": "xy-edge__8reqRpc-15delay",
+      "selected": false
+    },
+    {
+      "source": "15",
+      "sourceHandle": "delay",
+      "target": "9",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__15delay-9anyExecute",
+      "selected": false
+    },
+    {
+      "source": "9",
+      "sourceHandle": "anyExecute",
+      "target": "16",
+      "targetHandle": "delay",
+      "id": "xy-edge__9anyExecute-16delay",
+      "selected": false
+    },
+    {
+      "source": "16",
+      "sourceHandle": "delay",
+      "target": "10",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__16delay-10anyExecute",
+      "selected": false
+    },
+    {
+      "source": "10",
+      "sourceHandle": "anyExecute",
+      "target": "17",
+      "targetHandle": "delay",
+      "id": "xy-edge__10anyExecute-17delay",
+      "selected": false
+    },
+    {
+      "source": "17",
+      "sourceHandle": "delay",
+      "target": "25",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__17delay-25reqRpc"
+    },
+    {
+      "source": "25",
+      "sourceHandle": "reqRpc",
+      "target": "24",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__25reqRpc-24anyExecute"
+    },
+    {
+      "source": "24",
+      "sourceHandle": "anyExecute",
+      "target": "19",
+      "targetHandle": "delay",
+      "id": "xy-edge__24anyExecute-19delay"
+    },
+    {
+      "source": "19",
+      "sourceHandle": "delay",
+      "target": "26",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__19delay-26anyExecute"
+    },
+    {
+      "source": "26",
+      "sourceHandle": "anyExecute",
+      "target": "20",
+      "targetHandle": "delay",
+      "id": "xy-edge__26anyExecute-20delay"
+    },
+    {
+      "source": "20",
+      "sourceHandle": "delay",
+      "target": "27",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__20delay-27reqRpc"
+    },
+    {
+      "source": "27",
+      "sourceHandle": "reqRpc",
+      "target": "21",
+      "targetHandle": "delay",
+      "id": "xy-edge__27reqRpc-21delay"
+    },
+    {
+      "source": "21",
+      "sourceHandle": "delay",
+      "target": "28",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__21delay-28anyExecute"
+    },
+    {
+      "source": "28",
+      "sourceHandle": "anyExecute",
+      "target": "22",
+      "targetHandle": "delay",
+      "id": "xy-edge__28anyExecute-22delay",
+      "selected": false
+    },
+    {
+      "source": "22",
+      "sourceHandle": "delay",
+      "target": "29",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__22delay-29anyExecute"
+    },
+    {
+      "source": "29",
+      "sourceHandle": "anyExecute",
+      "target": "23",
+      "targetHandle": "delay",
+      "id": "xy-edge__29anyExecute-23delay"
+    },
+    {
+      "source": "32",
+      "sourceHandle": "anyExecute",
+      "target": "35",
+      "targetHandle": "delay",
+      "id": "xy-edge__32anyExecute-35delay"
+    },
+    {
+      "source": "23",
+      "sourceHandle": "delay",
+      "target": "30",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__23delay-30reqRpc"
+    },
+    {
+      "source": "30",
+      "sourceHandle": "reqRpc",
+      "target": "33",
+      "targetHandle": "delay",
+      "id": "xy-edge__30reqRpc-33delay"
+    },
+    {
+      "source": "33",
+      "sourceHandle": "delay",
+      "target": "31",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__33delay-31anyExecute"
+    },
+    {
+      "source": "31",
+      "sourceHandle": "anyExecute",
+      "target": "34",
+      "targetHandle": "delay",
+      "id": "xy-edge__31anyExecute-34delay"
+    },
+    {
+      "source": "34",
+      "sourceHandle": "delay",
+      "target": "32",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__34delay-32anyExecute"
+    },
+    {
+      "source": "35",
+      "sourceHandle": "delay",
+      "target": "37",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__35delay-37anyExecute"
+    },
+    {
+      "source": "37",
+      "sourceHandle": "anyExecute",
+      "target": "36",
+      "targetHandle": "delay",
+      "id": "xy-edge__37anyExecute-36delay"
+    },
+    {
+      "source": "36",
+      "sourceHandle": "delay",
+      "target": "39",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__36delay-39anyExecute"
+    },
+    {
+      "source": "39",
+      "sourceHandle": "anyExecute",
+      "target": "40",
+      "targetHandle": "delay",
+      "id": "xy-edge__39anyExecute-40delay"
+    },
+    {
+      "source": "40",
+      "sourceHandle": "delay",
+      "target": "2",
+      "targetHandle": "finish",
+      "id": "xy-edge__40delay-2finish"
+    },
+    {
+      "source": "14",
+      "sourceHandle": "delay",
+      "target": "8",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__14delay-8reqRpc"
+    },
+    {
+      "source": "11",
+      "sourceHandle": "delay",
+      "target": "41",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__11delay-41anyExecute"
+    },
+    {
+      "source": "41",
+      "sourceHandle": "anyExecute",
+      "target": "42",
+      "targetHandle": "delay",
+      "id": "xy-edge__41anyExecute-42delay"
+    },
+    {
+      "source": "42",
+      "sourceHandle": "delay",
+      "target": "5",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__42delay-5reqRpc"
+    }
+  ]
+}
