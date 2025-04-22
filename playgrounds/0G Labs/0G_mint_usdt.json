@@ -1,0 +1,173 @@
+{
+  "name": "0G_mint_usdt",
+  "id": "632df0c7-60d3-47b1-ae9c-a6c39d601ea2",
+  "screenshot": null,
+  "nodes": [
+    {
+      "id": "1",
+      "type": "start",
+      "position": {
+        "x": -1211.9438352204597,
+        "y": 192.78463868068937
+      },
+      "data": {
+        "label": "Start",
+        "value": 0
+      },
+      "measured": {
+        "width": 300,
+        "height": 119
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "type": "finish",
+      "position": {
+        "x": 784.2772942786146,
+        "y": 989.6866887751183
+      },
+      "data": {
+        "label": "Finish",
+        "task": "0G_mint_btc_sell"
+      },
+      "measured": {
+        "width": 150,
+        "height": 80
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "3",
+      "data": {
+        "label": "wallet"
+      },
+      "position": {
+        "x": -815.2870932069313,
+        "y": -10.562511082802146
+      },
+      "type": "wallet",
+      "measured": {
+        "width": 303,
+        "height": 517
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "data": {
+        "label": "swtNetwork",
+        "value": {
+          "network": "0G",
+          "value": 16600,
+          "type_order": "0x0"
+        }
+      },
+      "position": {
+        "x": -809.5220790677912,
+        "y": 561.8951110136768
+      },
+      "type": "swtNetwork",
+      "measured": {
+        "width": 303,
+        "height": 367
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "5",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "0G",
+          "delayBetween": 10,
+          "delayFrom": 5,
+          "delayTo": 15,
+          "typeDelay": "Progress"
+        }
+      },
+      "position": {
+        "x": -409.754758868967,
+        "y": 738.9893419444032
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 531
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "6",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "0G",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x9a87c2412d500343c073e5ae5394e3be3874f76b"
+          },
+          "dex": "USDT: claim",
+          "msg": "0x1249c58b"
+        }
+      },
+      "position": {
+        "x": -16.64990075492352,
+        "y": 770.6794953814208
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 559
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": "start",
+      "target": "3",
+      "targetHandle": "wallet",
+      "id": "xy-edge__1start-3wallet"
+    },
+    {
+      "source": "3",
+      "sourceHandle": "wallet",
+      "target": "4",
+      "targetHandle": "swtNetwork",
+      "id": "xy-edge__3wallet-4swtNetwork"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "delay",
+      "target": "6",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__5delay-6anyExecute"
+    },
+    {
+      "source": "6",
+      "sourceHandle": "anyExecute",
+      "target": "2",
+      "targetHandle": "finish",
+      "id": "xy-edge__6anyExecute-2finish"
+    },
+    {
+      "source": "4",
+      "sourceHandle": "swtNetwork",
+      "target": "5",
+      "targetHandle": "delay",
+      "id": "xy-edge__4swtNetwork-5delay"
+    }
+  ]
+}
