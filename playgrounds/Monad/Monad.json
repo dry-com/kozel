@@ -1,0 +1,2743 @@
+{
+  "name": "Monad",
+  "id": "fc2dd56f-3958-437b-8684-fbe2f75c6e3d",
+  "screenshot": null,
+  "nodes": [
+    {
+      "id": "1",
+      "type": "start",
+      "position": {
+        "x": -310,
+        "y": 288
+      },
+      "data": {
+        "label": "Start",
+        "value": 0
+      },
+      "measured": {
+        "width": 300,
+        "height": 119
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "type": "finish",
+      "position": {
+        "x": 5397.939472063583,
+        "y": 1805.5357147036157
+      },
+      "data": {
+        "label": "Finish",
+        "task": "Mpnad"
+      },
+      "measured": {
+        "width": 150,
+        "height": 80
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "3",
+      "data": {
+        "label": "wallet"
+      },
+      "position": {
+        "x": 18,
+        "y": 174
+      },
+      "type": "wallet",
+      "measured": {
+        "width": 303,
+        "height": 297
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "data": {
+        "label": "swtNetwork",
+        "value": {
+          "network": "MONAD",
+          "value": 10143,
+          "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701"
+        }
+      },
+      "position": {
+        "x": 342.2269746659863,
+        "y": 138.8052458786409
+      },
+      "type": "swtNetwork",
+      "measured": {
+        "width": 303,
+        "height": 367
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "5",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x2f930b339DE82F34FDbe54e872Eb4A2855B76EA2"
+          },
+          "dex": "Faucet: LUSD Mint",
+          "msg": "0x996cba68<addr>0000000000000000000000007fdf92a43c54171f9c278c67088ca43f2079d09b00000000000000000000000000000000000000000000003635c9adc5dea00000"
+        }
+      },
+      "position": {
+        "x": 1292,
+        "y": 411.75
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "6",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 10,
+          "delayTo": 30,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1135,
+        "y": -33
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "7",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x2f930b339DE82F34FDbe54e872Eb4A2855B76EA2"
+          },
+          "dex": "Faucet: USDC Mint",
+          "msg": "0x996cba68<addr>0000000000000000000000005d876d73f4441d5f2438b1a3e2a51771b337f27a00000000000000000000000000000000000000000000000000000002540be400"
+        }
+      },
+      "position": {
+        "x": 1632,
+        "y": 404
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "8",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x2f930b339DE82F34FDbe54e872Eb4A2855B76EA2"
+          },
+          "dex": "Faucet: WBTC Mint",
+          "msg": "0x996cba68<addr>0000000000000000000000006bb379a2056d1304e73012b99338f8f581ee2e1800000000000000000000000000000000000000000000000000000000004c4b40"
+        }
+      },
+      "position": {
+        "x": 1978,
+        "y": 404
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "9",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 10,
+          "delayTo": 30,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1475,
+        "y": -33
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "10",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 10,
+          "delayTo": 30,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1821.0000000000002,
+        "y": -33
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "11",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": true,
+            "idRandomBlock": "27",
+            "expired": 1744840614227
+          },
+          "to": {
+            "random": false,
+            "token": "0x88B96aF200c8a9c35442C8AC6cd3D22695AaE4F0"
+          },
+          "dex": "Ambient: Swap",
+          "msg": "0xa15112f90000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000000<Ambient: Token>0000000000000000000000000000000000000000000000000000000000008ca000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001<Ambient: Amount>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffff5433e2b3d8211706e6102aa947100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 3281,
+        "y": 387
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "12",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3111,
+        "y": -40.49189261078709
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "13",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "MONAD",
+          "to": {
+            "random": true,
+            "idRandomBlock": "29",
+            "expired": 1745367417991
+          },
+          "symbol": "Ambient: balance_of",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 3618.5,
+        "y": 386
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "14",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": true,
+            "idRandomBlock": "29",
+            "expired": 1745367417991
+          },
+          "dex": "Ambient: Approve",
+          "msg": "0x095ea7b300000000000000000000000088b96af200c8a9c35442c8ac6cd3d22695aae4f0<Ambient: balance_of>"
+        }
+      },
+      "position": {
+        "x": 3992,
+        "y": 389
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "15",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3461,
+        "y": -41
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "16",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3801,
+        "y": -42.254053694606455
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "17",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x88B96aF200c8a9c35442C8AC6cd3D22695AaE4F0"
+          },
+          "dex": "Ambient: Swap",
+          "msg": "0xa15112f90000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000000<Ambient: Token>0000000000000000000000000000000000000000000000000000000000008ca000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000<Ambient: balance_of>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 4344.945069701065,
+        "y": 389.92309051413895
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "18",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 4148.254053694607,
+        "y": -41.237838916180635
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "26",
+      "data": {
+        "label": "saveVar",
+        "value": {
+          "network": "MONAD",
+          "symbol": "Ambient: Amount",
+          "msg": {
+            "random": true,
+            "idRandomBlock": "27",
+            "expired": 1744840614227,
+            "typeRandom": "Amount"
+          }
+        }
+      },
+      "position": {
+        "x": 2925.25,
+        "y": 400.75
+      },
+      "type": "saveVar",
+      "measured": {
+        "width": 303,
+        "height": 347
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "27",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Amount",
+          "amountFrom": 0.1,
+          "amountTo": 0.02,
+          "expired": 1744840614227
+        }
+      },
+      "position": {
+        "x": 2602,
+        "y": 398
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "28",
+      "data": {
+        "label": "saveVar",
+        "value": {
+          "network": "MONAD",
+          "symbol": "Ambient: Token",
+          "msg": {
+            "random": true,
+            "idRandomBlock": "29",
+            "expired": 1745367417991,
+            "typeRandom": "Addresses/Contracts"
+          }
+        }
+      },
+      "position": {
+        "x": 2929,
+        "y": 765
+      },
+      "type": "saveVar",
+      "measured": {
+        "width": 303,
+        "height": 347
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "29",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Addresses/Contracts",
+          "content": "0x836047a99e11f376522b447bffb6e3495dd0637c, 0xcf5a6076cfa32686c0df13abada2b40dec133f1d, 0x88b8E2161DEDC77EF4ab7585569D2415a1C1055D, 0x5387C85A4965769f6B0Df430638a1388493486F1",
+          "expired": 1745367417991
+        }
+      },
+      "position": {
+        "x": 2602,
+        "y": 832.5
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 319
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "30",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": true,
+            "idRandomBlock": "52",
+            "expired": 1744894125889
+          },
+          "to": {
+            "random": false,
+            "token": "0x4cECDc55CECE5fE10cF5982a43aa44Ad5C23479B"
+          },
+          "dex": "Crystal: Swap_Mon",
+          "msg": "0x344933be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0<addr><deadline>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee<Crystal: Token>"
+        }
+      },
+      "position": {
+        "x": 1954.9450697010652,
+        "y": 1717.923090514139
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "31",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Addresses/Contracts",
+          "content": "0xf817257fed379853cde0fa4f97ab987181b1e5ea",
+          "expired": 1745865426686
+        }
+      },
+      "position": {
+        "x": 1628,
+        "y": 2059.25
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 319
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "32",
+      "data": {
+        "label": "saveVar",
+        "value": {
+          "network": "MONAD",
+          "symbol": "Crystal: Token",
+          "msg": {
+            "random": true,
+            "idRandomBlock": "31",
+            "expired": 1745358497261,
+            "typeRandom": "Addresses/Contracts"
+          }
+        }
+      },
+      "position": {
+        "x": 1629,
+        "y": 1673
+      },
+      "type": "saveVar",
+      "measured": {
+        "width": 303,
+        "height": 347
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "38",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": "0.01"
+          },
+          "to": {
+            "random": false,
+            "token": "0xdd23adE69Fc2FE1934AA36C5aB12F6DC58a3446f"
+          },
+          "dex": "MINT1: confit",
+          "msg": "0x1249c58b"
+        }
+      },
+      "position": {
+        "x": -177,
+        "y": 998.75
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "39",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 171,
+        "y": 1118.258107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "40",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 4508.254053694607,
+        "y": -39.737838916180635
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "42",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 855.75,
+        "y": 1614.258107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "43",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": "0.075"
+          },
+          "to": {
+            "random": false,
+            "token": "0x284607195c8BD96e2EA3FDdD62A5556444AF9203"
+          },
+          "dex": "MINT2: freee",
+          "msg": "0xe08cd626<addr>0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 515.75,
+        "y": 1494.5
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "44",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": "0.075"
+          },
+          "to": {
+            "random": false,
+            "token": "0x27548F4509a938c5e522964D229367e14392f310"
+          },
+          "dex": "MINT3: freee",
+          "msg": "0xe08cd626<addr>0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 3823,
+        "y": 1566.5
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "45",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 4165,
+        "y": 1686.258107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "46",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "MONAD",
+          "to": {
+            "random": true,
+            "idRandomBlock": "31",
+            "expired": 1745865426686
+          },
+          "symbol": "Crystal: USDC_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 2285,
+        "y": 1720
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "47",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": true,
+            "idRandomBlock": "31",
+            "expired": 1745865426686
+          },
+          "dex": "Crystal: Approve",
+          "msg": "0x095ea7b3000000000000000000000000e67b22228362f54c207623857ac01b0f8fa1e14fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      "position": {
+        "x": 2652.945069701065,
+        "y": 1719.923090514139
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "48",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2127,
+        "y": 1290.258107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "49",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2495,
+        "y": 1292.258107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "50",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2835,
+        "y": 1292.258107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "51",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0x4cECDc55CECE5fE10cF5982a43aa44Ad5C23479B"
+          },
+          "dex": "Crystal: Swap_Usdc",
+          "msg": "0x2232ea43<Crystal: USDC_balance>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0<addr><deadline>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002<Crystal: Token>000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        }
+      },
+      "position": {
+        "x": 2992.945069701065,
+        "y": 1721.923090514139
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "52",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Amount",
+          "amountFrom": 0.1,
+          "amountTo": 1,
+          "expired": 1744894125889
+        }
+      },
+      "position": {
+        "x": 1293.75,
+        "y": 1951
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "53",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayBetween": 60,
+          "delayFrom": 60,
+          "delayTo": 180,
+          "typeDelay": "Progress"
+        }
+      },
+      "position": {
+        "x": 666,
+        "y": 57.75
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 531
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "54",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 10,
+          "delayTo": 30,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2159,
+        "y": -33
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "55",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3193,
+        "y": 1294.258107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "56",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": true,
+            "idRandomBlock": "62",
+            "expired": 1745077395065
+          },
+          "to": {
+            "random": false,
+            "token": "0x88B96aF200c8a9c35442C8AC6cd3D22695AaE4F0"
+          },
+          "dex": "Ambient2: Swap",
+          "msg": "0xa15112f90000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000000<Ambient2: Token>0000000000000000000000000000000000000000000000000000000000008ca000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001<Ambient2: Amount>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffff5433e2b3d8211706e6102aa947100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 5859.75,
+        "y": 349
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "57",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "MONAD",
+          "to": {
+            "random": true,
+            "idRandomBlock": "63",
+            "expired": 1745367433524
+          },
+          "symbol": "Ambient2: balance_of",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 6211.25,
+        "y": 352
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "58",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": true,
+            "idRandomBlock": "63",
+            "expired": 1745367433524
+          },
+          "dex": "Ambient2: Approve",
+          "msg": "0x095ea7b300000000000000000000000088b96af200c8a9c35442c8ac6cd3d22695aae4f0<Ambient2: balance_of>"
+        }
+      },
+      "position": {
+        "x": 6564.75,
+        "y": 351
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "59",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x88B96aF200c8a9c35442C8AC6cd3D22695AaE4F0"
+          },
+          "dex": "Ambient2: Swap",
+          "msg": "0xa15112f90000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000000<Ambient2: Token>0000000000000000000000000000000000000000000000000000000000008ca000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000<Ambient2: balance_of>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 6907.695069701065,
+        "y": 341.92309051413895
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "60",
+      "data": {
+        "label": "saveVar",
+        "value": {
+          "network": "MONAD",
+          "symbol": "Ambient2: Amount",
+          "msg": {
+            "random": true,
+            "idRandomBlock": "62",
+            "expired": 1745077395065,
+            "typeRandom": "Amount"
+          }
+        }
+      },
+      "position": {
+        "x": 5523.75,
+        "y": 332.75
+      },
+      "type": "saveVar",
+      "measured": {
+        "width": 303,
+        "height": 347
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "61",
+      "data": {
+        "label": "saveVar",
+        "value": {
+          "network": "MONAD",
+          "symbol": "Ambient2: Token",
+          "msg": {
+            "random": true,
+            "idRandomBlock": "63",
+            "expired": 1745367433524,
+            "typeRandom": "Addresses/Contracts"
+          }
+        }
+      },
+      "position": {
+        "x": 5521.5,
+        "y": 713
+      },
+      "type": "saveVar",
+      "measured": {
+        "width": 303,
+        "height": 347
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "62",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Amount",
+          "amountFrom": 0.1,
+          "amountTo": 0.02,
+          "expired": 1745077395065
+        }
+      },
+      "position": {
+        "x": 5186,
+        "y": 331.25
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "63",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Addresses/Contracts",
+          "content": "0x836047a99e11f376522b447bffb6e3495dd0637c, 0xcf5a6076cfa32686c0df13abada2b40dec133f1d, 0x88b8E2161DEDC77EF4ab7585569D2415a1C1055D, 0x5387C85A4965769f6B0Df430638a1388493486F1",
+          "expired": 1745367433524
+        }
+      },
+      "position": {
+        "x": 5182.75,
+        "y": 772.5
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 319
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "64",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 5702.254053694607,
+        "y": -104.23783891618064
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "65",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 6054.254053694607,
+        "y": -102.23783891618064
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "66",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 6412.254053694607,
+        "y": -98.23783891618064
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "67",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 6820.254053694607,
+        "y": -94.23783891618064
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "68",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 7164.254053694607,
+        "y": -104.23783891618064
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "69",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": true,
+            "idRandomBlock": "75",
+            "expired": 1744894125889
+          },
+          "to": {
+            "random": false,
+            "token": "0x4cECDc55CECE5fE10cF5982a43aa44Ad5C23479B"
+          },
+          "dex": "Crystal2: Swap_Mon",
+          "msg": "0x344933be000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0<addr><deadline>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee000000000000000000000000f817257fed379853cde0fa4f97ab987181b1e5ea"
+        }
+      },
+      "position": {
+        "x": 115.50715218401001,
+        "y": 2943.923090514139
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "70",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "MONAD",
+          "to": {
+            "random": false,
+            "token": "0xf817257fed379853cde0fa4f97ab987181b1e5ea"
+          },
+          "symbol": "Crystal2: USDC_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 478.2868962068778,
+        "y": 2946
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "71",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0xf817257fed379853cde0fa4f97ab987181b1e5ea"
+          },
+          "dex": "Crystal2: Approve_usdc_weth",
+          "msg": "0x095ea7b3000000000000000000000000f5272255fef2ce9735944706625597011f45c986ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      "position": {
+        "x": 809.50715218401,
+        "y": 2947.923090514139
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "75",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Amount",
+          "amountFrom": 0.1,
+          "amountTo": 1,
+          "expired": 1744894125889
+        }
+      },
+      "position": {
+        "x": -219.6879175170552,
+        "y": 2848
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "76",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 319.5620824829448,
+        "y": 2513.508107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "77",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 651.5620824829448,
+        "y": 2515.508107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "78",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0x4cECDc55CECE5fE10cF5982a43aa44Ad5C23479B"
+          },
+          "dex": "Crystal2: Swap_random",
+          "msg": "0x05a1450d<Crystal2: USDC_balance>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0<addr><deadline>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000f817257fed379853cde0fa4f97ab987181b1e5ea<Crystal2: Token_random>"
+        }
+      },
+      "position": {
+        "x": 1886.6129820506012,
+        "y": 2945.6721562519865
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "79",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1009.5620824829448,
+        "y": 2517.508107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "80",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Addresses/Contracts",
+          "content": "0xb5a30b0fdc5ea94a52fdc42e3e9760cb8449fb37, 0xcf5a6076cfa32686c0df13abada2b40dec133f1d",
+          "expired": 1745360590591
+        }
+      },
+      "position": {
+        "x": 1562.8006541742143,
+        "y": 3310.5099672912893
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 319
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "81",
+      "data": {
+        "label": "saveVar",
+        "value": {
+          "network": "MONAD",
+          "symbol": "Crystal2: Token_random",
+          "msg": {
+            "random": true,
+            "idRandomBlock": "80",
+            "expired": 1745360590591,
+            "typeRandom": "Addresses/Contracts"
+          }
+        }
+      },
+      "position": {
+        "x": 1548.901144804875,
+        "y": 2950.779901873868
+      },
+      "type": "saveVar",
+      "measured": {
+        "width": 303,
+        "height": 347
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "82",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37"
+          },
+          "dex": "Crystal2: Approve_weth",
+          "msg": "0x095ea7b3000000000000000000000000f5272255fef2ce9735944706625597011f45c986ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      "position": {
+        "x": 2206.945069701065,
+        "y": 2945.923090514139
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "83",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2049,
+        "y": 2513.508107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "84",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2375.0811533883107,
+        "y": 2514.3651215199816
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "85",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0x4cECDc55CECE5fE10cF5982a43aa44Ad5C23479B"
+          },
+          "dex": "Crystal2: Swap_random_usdc",
+          "msg": "0x05a1450d<Crystal2: random_balance>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0<addr><deadline>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002<Crystal2: Token_random>000000000000000000000000f817257fed379853cde0fa4f97ab987181b1e5ea"
+        }
+      },
+      "position": {
+        "x": 3270.455405218019,
+        "y": 2954.7348898175246
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "86",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "MONAD",
+          "to": {
+            "random": true,
+            "idRandomBlock": "80",
+            "expired": 1745360590591
+          },
+          "symbol": "Crystal2: random_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 2905.8420104969637,
+        "y": 2952
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "87",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3113.3910841673915,
+        "y": 2519.4509130415204
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "88",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0x4cECDc55CECE5fE10cF5982a43aa44Ad5C23479B"
+          },
+          "dex": "Crystal2: Swap_Usdc",
+          "msg": "0x2232ea43<Crystal2: USDC_balance_two>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0<addr><deadline>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000f817257fed379853cde0fa4f97ab987181b1e5ea000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        }
+      },
+      "position": {
+        "x": 4010.160688053653,
+        "y": 2952.707472161551
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "89",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "MONAD",
+          "to": {
+            "random": false,
+            "token": "0xf817257fed379853cde0fa4f97ab987181b1e5ea"
+          },
+          "symbol": "Crystal2: USDC_balance_two",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 3647,
+        "y": 2950
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "90",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3489.3910841673915,
+        "y": 2523.4509130415204
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "91",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3853.3910841673915,
+        "y": 2521.4509130415204
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "92",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 4235.391084167391,
+        "y": 2521.4509130415204
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "93",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0xf817257fed379853cde0fa4f97ab987181b1e5ea"
+          },
+          "dex": "Crystal2: Approve_usdc_wbtc",
+          "msg": "0x095ea7b3000000000000000000000000f49847295eeb5f262e29aa309b2af39e983c1734ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      "position": {
+        "x": 1167.50715218401,
+        "y": 2947.923090514139
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "95",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1391.5620824829448,
+        "y": 2519.508107389213
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "96",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MONAD",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0xcf5a6076cfa32686c0Df13aBaDa2b40dec133F1d"
+          },
+          "dex": "Crystal2: Approve_wbtc",
+          "msg": "0x095ea7b3000000000000000000000000f49847295eeb5f262e29aa309b2af39e983c1734ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      "position": {
+        "x": 2532.945069701065,
+        "y": 2945.923090514139
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "97",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MONAD",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2749.0811533883107,
+        "y": 2518.3651215199816
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": "start",
+      "target": "3",
+      "targetHandle": "wallet",
+      "id": "xy-edge__1start-3wallet",
+      "selected": false
+    },
+    {
+      "source": "3",
+      "sourceHandle": "wallet",
+      "target": "4",
+      "targetHandle": "swtNetwork",
+      "id": "xy-edge__3wallet-4swtNetwork",
+      "selected": false
+    },
+    {
+      "source": "6",
+      "sourceHandle": "delay",
+      "target": "5",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__6delay-5anyExecute",
+      "selected": false
+    },
+    {
+      "source": "5",
+      "sourceHandle": "anyExecute",
+      "target": "9",
+      "targetHandle": "delay",
+      "id": "xy-edge__5anyExecute-9delay",
+      "selected": false
+    },
+    {
+      "source": "9",
+      "sourceHandle": "delay",
+      "target": "7",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__9delay-7anyExecute",
+      "selected": false
+    },
+    {
+      "source": "7",
+      "sourceHandle": "anyExecute",
+      "target": "10",
+      "targetHandle": "delay",
+      "id": "xy-edge__7anyExecute-10delay",
+      "selected": false
+    },
+    {
+      "source": "10",
+      "sourceHandle": "delay",
+      "target": "8",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__10delay-8anyExecute",
+      "selected": false
+    },
+    {
+      "source": "12",
+      "sourceHandle": "delay",
+      "target": "11",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__12delay-11anyExecute",
+      "selected": false
+    },
+    {
+      "source": "11",
+      "sourceHandle": "anyExecute",
+      "target": "15",
+      "targetHandle": "delay",
+      "id": "xy-edge__11anyExecute-15delay",
+      "selected": false
+    },
+    {
+      "source": "15",
+      "sourceHandle": "delay",
+      "target": "13",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__15delay-13reqRpc",
+      "selected": false
+    },
+    {
+      "source": "13",
+      "sourceHandle": "reqRpc",
+      "target": "16",
+      "targetHandle": "delay",
+      "id": "xy-edge__13reqRpc-16delay",
+      "selected": false
+    },
+    {
+      "source": "16",
+      "sourceHandle": "delay",
+      "target": "14",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__16delay-14anyExecute",
+      "selected": false
+    },
+    {
+      "source": "14",
+      "sourceHandle": "anyExecute",
+      "target": "18",
+      "targetHandle": "delay",
+      "id": "xy-edge__14anyExecute-18delay",
+      "selected": false
+    },
+    {
+      "source": "18",
+      "sourceHandle": "delay",
+      "target": "17",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__18delay-17anyExecute",
+      "selected": false
+    },
+    {
+      "source": "27",
+      "sourceHandle": "random",
+      "target": "26",
+      "targetHandle": "toMsg",
+      "animated": true,
+      "id": "xy-edge__27random-26toMsg",
+      "selected": false
+    },
+    {
+      "source": "27",
+      "sourceHandle": "random",
+      "target": "11",
+      "targetHandle": "amount",
+      "animated": true,
+      "id": "xy-edge__27random-11amount",
+      "selected": false
+    },
+    {
+      "source": "29",
+      "sourceHandle": "random",
+      "target": "28",
+      "targetHandle": "toMsg",
+      "animated": true,
+      "id": "xy-edge__29random-28toMsg",
+      "selected": false
+    },
+    {
+      "source": "26",
+      "sourceHandle": "saveVar",
+      "target": "28",
+      "targetHandle": "saveVar",
+      "id": "xy-edge__26saveVar-28saveVar",
+      "selected": false
+    },
+    {
+      "source": "29",
+      "sourceHandle": "random",
+      "target": "13",
+      "targetHandle": "toToken",
+      "animated": true,
+      "id": "xy-edge__29random-13toToken",
+      "selected": false
+    },
+    {
+      "source": "28",
+      "sourceHandle": "saveVar",
+      "target": "12",
+      "targetHandle": "delay",
+      "id": "xy-edge__28saveVar-12delay"
+    },
+    {
+      "source": "29",
+      "sourceHandle": "random",
+      "target": "14",
+      "targetHandle": "toToken",
+      "animated": true,
+      "id": "xy-edge__29random-14toToken",
+      "selected": false
+    },
+    {
+      "source": "32",
+      "sourceHandle": "saveVar",
+      "target": "30",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__32saveVar-30anyExecute",
+      "selected": false
+    },
+    {
+      "source": "38",
+      "sourceHandle": "anyExecute",
+      "target": "39",
+      "targetHandle": "delay",
+      "id": "xy-edge__38anyExecute-39delay",
+      "selected": false
+    },
+    {
+      "source": "17",
+      "sourceHandle": "anyExecute",
+      "target": "40",
+      "targetHandle": "delay",
+      "id": "xy-edge__17anyExecute-40delay"
+    },
+    {
+      "source": "43",
+      "sourceHandle": "anyExecute",
+      "target": "42",
+      "targetHandle": "delay",
+      "id": "xy-edge__43anyExecute-42delay",
+      "selected": false
+    },
+    {
+      "source": "39",
+      "sourceHandle": "delay",
+      "target": "43",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__39delay-43anyExecute",
+      "selected": false
+    },
+    {
+      "source": "44",
+      "sourceHandle": "anyExecute",
+      "target": "45",
+      "targetHandle": "delay",
+      "id": "xy-edge__44anyExecute-45delay"
+    },
+    {
+      "source": "31",
+      "sourceHandle": "random",
+      "target": "32",
+      "targetHandle": "toMsg",
+      "animated": true,
+      "id": "xy-edge__31random-32toMsg",
+      "selected": false
+    },
+    {
+      "source": "31",
+      "sourceHandle": "random",
+      "target": "46",
+      "targetHandle": "toToken",
+      "animated": true,
+      "id": "xy-edge__31random-46toToken",
+      "selected": false
+    },
+    {
+      "source": "30",
+      "sourceHandle": "anyExecute",
+      "target": "48",
+      "targetHandle": "delay",
+      "id": "xy-edge__30anyExecute-48delay",
+      "selected": false
+    },
+    {
+      "source": "48",
+      "sourceHandle": "delay",
+      "target": "46",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__48delay-46reqRpc",
+      "selected": false
+    },
+    {
+      "source": "46",
+      "sourceHandle": "reqRpc",
+      "target": "49",
+      "targetHandle": "delay",
+      "id": "xy-edge__46reqRpc-49delay",
+      "selected": false
+    },
+    {
+      "source": "49",
+      "sourceHandle": "delay",
+      "target": "47",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__49delay-47anyExecute",
+      "selected": false
+    },
+    {
+      "source": "31",
+      "sourceHandle": "random",
+      "target": "47",
+      "targetHandle": "toToken",
+      "animated": true,
+      "id": "xy-edge__31random-47toToken",
+      "selected": false
+    },
+    {
+      "source": "47",
+      "sourceHandle": "anyExecute",
+      "target": "50",
+      "targetHandle": "delay",
+      "id": "xy-edge__47anyExecute-50delay",
+      "selected": false
+    },
+    {
+      "source": "50",
+      "sourceHandle": "delay",
+      "target": "51",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__50delay-51anyExecute",
+      "selected": false
+    },
+    {
+      "source": "52",
+      "sourceHandle": "random",
+      "target": "30",
+      "targetHandle": "amount",
+      "animated": true,
+      "id": "xy-edge__52random-30amount",
+      "selected": false
+    },
+    {
+      "source": "8",
+      "sourceHandle": "anyExecute",
+      "target": "54",
+      "targetHandle": "delay",
+      "id": "xy-edge__8anyExecute-54delay",
+      "selected": false
+    },
+    {
+      "source": "42",
+      "sourceHandle": "delay",
+      "target": "32",
+      "targetHandle": "saveVar",
+      "id": "xy-edge__42delay-32saveVar",
+      "selected": false
+    },
+    {
+      "source": "51",
+      "sourceHandle": "anyExecute",
+      "target": "55",
+      "targetHandle": "delay",
+      "id": "xy-edge__51anyExecute-55delay",
+      "selected": false
+    },
+    {
+      "source": "55",
+      "sourceHandle": "delay",
+      "target": "44",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__55delay-44anyExecute",
+      "selected": false
+    },
+    {
+      "source": "4",
+      "sourceHandle": "swtNetwork",
+      "target": "53",
+      "targetHandle": "delay",
+      "id": "xy-edge__4swtNetwork-53delay",
+      "selected": false
+    },
+    {
+      "source": "60",
+      "sourceHandle": "saveVar",
+      "target": "61",
+      "targetHandle": "saveVar",
+      "id": "xy-edge__60saveVar-61saveVar"
+    },
+    {
+      "source": "61",
+      "sourceHandle": "saveVar",
+      "target": "64",
+      "targetHandle": "delay",
+      "id": "xy-edge__61saveVar-64delay"
+    },
+    {
+      "source": "64",
+      "sourceHandle": "delay",
+      "target": "56",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__64delay-56anyExecute"
+    },
+    {
+      "source": "62",
+      "sourceHandle": "random",
+      "target": "56",
+      "targetHandle": "amount",
+      "animated": true,
+      "id": "xy-edge__62random-56amount"
+    },
+    {
+      "source": "62",
+      "sourceHandle": "random",
+      "target": "60",
+      "targetHandle": "toMsg",
+      "animated": true,
+      "id": "xy-edge__62random-60toMsg"
+    },
+    {
+      "source": "63",
+      "sourceHandle": "random",
+      "target": "61",
+      "targetHandle": "toMsg",
+      "animated": true,
+      "id": "xy-edge__63random-61toMsg"
+    },
+    {
+      "source": "63",
+      "sourceHandle": "random",
+      "target": "58",
+      "targetHandle": "toToken",
+      "animated": true,
+      "id": "xy-edge__63random-58toToken"
+    },
+    {
+      "source": "63",
+      "sourceHandle": "random",
+      "target": "57",
+      "targetHandle": "toToken",
+      "animated": true,
+      "id": "xy-edge__63random-57toToken"
+    },
+    {
+      "source": "56",
+      "sourceHandle": "anyExecute",
+      "target": "65",
+      "targetHandle": "delay",
+      "id": "xy-edge__56anyExecute-65delay"
+    },
+    {
+      "source": "65",
+      "sourceHandle": "delay",
+      "target": "57",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__65delay-57reqRpc"
+    },
+    {
+      "source": "57",
+      "sourceHandle": "reqRpc",
+      "target": "66",
+      "targetHandle": "delay",
+      "id": "xy-edge__57reqRpc-66delay"
+    },
+    {
+      "source": "66",
+      "sourceHandle": "delay",
+      "target": "58",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__66delay-58anyExecute"
+    },
+    {
+      "source": "58",
+      "sourceHandle": "anyExecute",
+      "target": "67",
+      "targetHandle": "delay",
+      "id": "xy-edge__58anyExecute-67delay"
+    },
+    {
+      "source": "67",
+      "sourceHandle": "delay",
+      "target": "59",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__67delay-59anyExecute"
+    },
+    {
+      "source": "59",
+      "sourceHandle": "anyExecute",
+      "target": "68",
+      "targetHandle": "delay",
+      "id": "xy-edge__59anyExecute-68delay"
+    },
+    {
+      "source": "40",
+      "sourceHandle": "delay",
+      "target": "60",
+      "targetHandle": "saveVar",
+      "id": "xy-edge__40delay-60saveVar"
+    },
+    {
+      "source": "68",
+      "sourceHandle": "delay",
+      "target": "38",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__68delay-38anyExecute",
+      "selected": false
+    },
+    {
+      "source": "75",
+      "sourceHandle": "random",
+      "target": "69",
+      "targetHandle": "amount",
+      "animated": true,
+      "id": "xy-edge__75random-69amount",
+      "selected": false
+    },
+    {
+      "source": "69",
+      "sourceHandle": "anyExecute",
+      "target": "76",
+      "targetHandle": "delay",
+      "id": "xy-edge__69anyExecute-76delay",
+      "selected": false
+    },
+    {
+      "source": "76",
+      "sourceHandle": "delay",
+      "target": "70",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__76delay-70reqRpc",
+      "selected": false
+    },
+    {
+      "source": "70",
+      "sourceHandle": "reqRpc",
+      "target": "77",
+      "targetHandle": "delay",
+      "id": "xy-edge__70reqRpc-77delay",
+      "selected": false
+    },
+    {
+      "source": "77",
+      "sourceHandle": "delay",
+      "target": "71",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__77delay-71anyExecute",
+      "selected": false
+    },
+    {
+      "source": "71",
+      "sourceHandle": "anyExecute",
+      "target": "79",
+      "targetHandle": "delay",
+      "id": "xy-edge__71anyExecute-79delay",
+      "selected": false
+    },
+    {
+      "source": "80",
+      "sourceHandle": "random",
+      "target": "81",
+      "targetHandle": "toMsg",
+      "animated": true,
+      "id": "xy-edge__80random-81toMsg",
+      "selected": false
+    },
+    {
+      "source": "81",
+      "sourceHandle": "saveVar",
+      "target": "78",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__81saveVar-78anyExecute",
+      "selected": false
+    },
+    {
+      "source": "78",
+      "sourceHandle": "anyExecute",
+      "target": "83",
+      "targetHandle": "delay",
+      "id": "xy-edge__78anyExecute-83delay",
+      "selected": false
+    },
+    {
+      "source": "83",
+      "sourceHandle": "delay",
+      "target": "82",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__83delay-82anyExecute",
+      "selected": false
+    },
+    {
+      "source": "82",
+      "sourceHandle": "anyExecute",
+      "target": "84",
+      "targetHandle": "delay",
+      "id": "xy-edge__82anyExecute-84delay",
+      "selected": false
+    },
+    {
+      "source": "86",
+      "sourceHandle": "reqRpc",
+      "target": "87",
+      "targetHandle": "delay",
+      "id": "xy-edge__86reqRpc-87delay",
+      "selected": false
+    },
+    {
+      "source": "87",
+      "sourceHandle": "delay",
+      "target": "85",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__87delay-85anyExecute",
+      "selected": false
+    },
+    {
+      "source": "80",
+      "sourceHandle": "random",
+      "target": "86",
+      "targetHandle": "toToken",
+      "animated": true,
+      "id": "xy-edge__80random-86toToken",
+      "selected": false
+    },
+    {
+      "source": "85",
+      "sourceHandle": "anyExecute",
+      "target": "90",
+      "targetHandle": "delay",
+      "id": "xy-edge__85anyExecute-90delay",
+      "selected": false
+    },
+    {
+      "source": "89",
+      "sourceHandle": "reqRpc",
+      "target": "91",
+      "targetHandle": "delay",
+      "id": "xy-edge__89reqRpc-91delay",
+      "selected": false
+    },
+    {
+      "source": "91",
+      "sourceHandle": "delay",
+      "target": "88",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__91delay-88anyExecute",
+      "selected": false
+    },
+    {
+      "source": "88",
+      "sourceHandle": "anyExecute",
+      "target": "92",
+      "targetHandle": "delay",
+      "id": "xy-edge__88anyExecute-92delay",
+      "selected": false
+    },
+    {
+      "source": "92",
+      "sourceHandle": "delay",
+      "target": "2",
+      "targetHandle": "finish",
+      "id": "xy-edge__92delay-2finish",
+      "selected": false
+    },
+    {
+      "source": "79",
+      "sourceHandle": "delay",
+      "target": "93",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__79delay-93anyExecute",
+      "selected": false
+    },
+    {
+      "source": "93",
+      "sourceHandle": "anyExecute",
+      "target": "95",
+      "targetHandle": "delay",
+      "id": "xy-edge__93anyExecute-95delay",
+      "selected": false
+    },
+    {
+      "source": "95",
+      "sourceHandle": "delay",
+      "target": "81",
+      "targetHandle": "saveVar",
+      "id": "xy-edge__95delay-81saveVar",
+      "selected": false
+    },
+    {
+      "source": "84",
+      "sourceHandle": "delay",
+      "target": "96",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__84delay-96anyExecute",
+      "selected": false
+    },
+    {
+      "source": "96",
+      "sourceHandle": "anyExecute",
+      "target": "97",
+      "targetHandle": "delay",
+      "id": "xy-edge__96anyExecute-97delay",
+      "selected": false
+    },
+    {
+      "source": "97",
+      "sourceHandle": "delay",
+      "target": "86",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__97delay-86reqRpc",
+      "selected": false
+    },
+    {
+      "source": "90",
+      "sourceHandle": "delay",
+      "target": "89",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__90delay-89reqRpc",
+      "selected": false
+    },
+    {
+      "source": "45",
+      "sourceHandle": "delay",
+      "target": "69",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__45delay-69anyExecute",
+      "selected": false
+    },
+    {
+      "source": "53",
+      "sourceHandle": "delay",
+      "target": "6",
+      "targetHandle": "delay",
+      "id": "xy-edge__53delay-6delay"
+    },
+    {
+      "source": "54",
+      "sourceHandle": "delay",
+      "target": "26",
+      "targetHandle": "saveVar",
+      "id": "xy-edge__54delay-26saveVar"
+    }
+  ]
+}
