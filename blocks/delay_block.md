@@ -1,6 +1,6 @@
 # Delay Block
 
-This document describes the **Delay Block** user interface component, which allows users to insert a custom wait/delay step into their workflow in three ways: statically, randomly, and progressively.
+This document describes the **Delay Block** user interface component, which allows users to insert a custom wait/delay step into their workflow in three ways: statically, randomly, and progressively. You can insert this block anywhere and use it multiple times, but it **MUST** follow the Start and Wallet blocks.
 
 <img width="392" alt="Снимок экрана 2025-04-29 в 22 16 17" src="https://github.com/user-attachments/assets/d9100952-8fd6-401f-89c1-673b39e61267" />
 
