@@ -10,7 +10,7 @@ This document describes the **Wallets Block** user interface component, which pr
 
 Detailed description of each item in the wallets block:
 
-| UI Element                      | Description                                                                                                                                          |
+| Form field                      | Description                                                                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Enable Angry Mode** Toggle    | Activates a special mode that increases the probability of transaction success.                                       |
 | **Group Filter Dropdown**       | A dropdown menu labeled "Select group". Select a wallet group to filter the list accordingly.                                                        |
