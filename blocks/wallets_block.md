@@ -1,6 +1,6 @@
 # Wallets Block
 
-This document describes the **Wallets Block** user interface component, which provides an interface for selecting and configuring wallets for your task.
+This document describes the **Wallets Block** user interface component, which provides an interface for selecting and configuring wallets for your task. The Wallet Block **MUST** follow the Start Block.
 
 <img width="1007" alt="Wallets_block" src="https://github.com/user-attachments/assets/1d02f2dd-f83b-4da7-936b-6370df7ad8b7" />
 
