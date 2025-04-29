@@ -3,6 +3,14 @@
 ## Preparation Before Using Kozel (Based on Operating System)
 
 ### macOS:
+
+
+
+https://github.com/user-attachments/assets/fceb2b0a-1742-4e3f-bba6-868f149423cb
+
+
+
+
 1. Download Docker from this link: [Docker Documentation](https://docs.docker.com/desktop/setup/install/mac-install/).
 2. Install Socat. You can install it with Homebrew using the command:
    ```bash
