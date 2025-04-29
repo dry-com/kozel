@@ -23,7 +23,7 @@ Detailed description of each item in the wallets block:
 
 --- 
 
-You can ask any questions you may have or suggest your ideas using the links below:
+If you have any questions or suggestions, please use the links below:
 
 [![Join our Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hidden_coding)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)]([https://github.com/aero25x](https://github.com/HiddenCodeDevs))
