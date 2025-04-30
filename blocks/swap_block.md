@@ -21,9 +21,9 @@ Detailed description of each item in the wallets block:
 | **Router Contract**             | Enter the router contract.                                                    |
 | **Swap Factory Contract**       | Enter the factory contract.       |
 | **Add min amount**              | When activating this parameter, you must enter the minimum amount of token that must be in the wallet to make a transfer (if the selected wallet for the transfer has less token than you specified in the Min Amount field, then your task will skip this block for the selected wallet)..                                    |
-| **Amount**                      | The amount of tokens you want to send.                      |
-| **From Token**                  | Enter the token from which you will make the swap.                      |
-| **To Token**                    | Enter the token you want to receive after the swap is completed.                      |
+| **Amount**                      | The amount of tokens you want to send. Also in this field there is a connection point for optional and other blocks. For example **Random Block** or data from other blocks.                      |
+| **From Token**                  | Enter the token from which you will make the swap. Also in this field there is a connection point for optional and other blocks. For example **Random Block** or data from other blocks.                      |
+| **To Token**                    | Enter the token you want to receive after the swap is completed. Also in this field there is a connection point for optional and other blocks. For example **Random Block** or data from other blocks.                      |
 | **Clear Button**                | Clear all block configurations.                                                                                   |
 | **Save Button**                 | Saves the current block configuration and applies it to the system.                                                                                  | 
 
