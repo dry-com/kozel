@@ -4,8 +4,6 @@ This document describes the **Wallets Block** user interface component, which pr
 
 <img width="1007" alt="Wallets_block" src="https://github.com/user-attachments/assets/1d02f2dd-f83b-4da7-936b-6370df7ad8b7" />
 
---- 
-
 ## 🖼 Description of block items
 
 Detailed description of each item in the wallets block:
@@ -19,12 +17,9 @@ Detailed description of each item in the wallets block:
 | **Wallet Entry Checkbox**       | Individual checkboxes for each wallet address (e.g., `0x12a5...51bc9`). Use these to block specific wallets one by one.                             |
 | **Block Connection Indicator**  | Connection points to other blocks in your task.                             |
 | **Clear Button**                | Clears all selections and resets filters/search inputs.                                                                                              |
-| **Save Button**                 | Saves the current block configuration and applies it to the system.                                                                                  |
-
---- 
+| **Save Button**                 | Saves the current block configuration and applies it to the system.                                                                                  | 
 
 If you have any questions or suggestions, please use the links below:
-
 
 [![Join our Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hidden_coding)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HiddenCodeDevs/)
