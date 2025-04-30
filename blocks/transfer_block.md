@@ -6,7 +6,7 @@ This document describes the **Transfer Block** UI component that allows users to
 
 ## 📋 Overview
 
-The block has three types:
+The block has two types:
 
 - **Single Transfer**: This type of block makes a transfer to one wallet from the input field.
 - **Multiple Transfer**: This type of block makes a transfer to the selected wallets from the list. (uses the list of your connected wallets in Kozel).
