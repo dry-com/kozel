@@ -15,9 +15,9 @@ The block has two types:
 
 | Form field                   | Description                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Token**                    | Enter the token contract you want to send.                            |
+| **Token**                    | Enter the token contract you want to send. Also in this field there is a connection point for optional and other blocks. For example **Random Block** or data from other  blocks.|
 | **Add min amount**           | When activating this parameter, you must enter the minimum amount of token that must be in the wallet to make a transfer (if the selected wallet for the transfer has less token than you specified in the Min Amount field, then your task will skip this block for the selected wallet)..                                    |
-| **Amount**                   | The amount of tokens you want to send.                      |
+| **Amount**                   | The amount of tokens you want to send. Also in this field there is a connection point for optional and other blocks. For example **Random Block** or data from other blocks.|
 | **To single wallet**         | Position off, if transfer to one wallet. Position on, if transfer to multiple wallets.                     |
 | **Wallet address**           | Recipient wallet address.         |
 | **Group Filter Dropdown**    | A dropdown menu labeled "Select group". Select a wallet group to filter the list accordingly.                                                        |
