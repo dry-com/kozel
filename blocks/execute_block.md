@@ -9,7 +9,7 @@ This document describes the **Execute Block** user interface component, which pr
 For instance, we examined an ETH deposit transaction within the Moonwell decentralized application on the Base network.
 Link on TX - https://basescan.org/tx/0x0c86641194161e7f4888b65f243f8a183ab14a8f5cef6020ce1a1dd4a6586df2
 
-<img width="1689" alt="execute_block" src="https://github.com/user-attachments/assets/5e30ad2a-2a70-454b-87d0-0f24b527a152" />
+<img width="1689" alt="execute_block_example" src="https://github.com/user-attachments/assets/5e30ad2a-2a70-454b-87d0-0f24b527a152" />
 
 The `Amount` field is used to specify the required amount of the native network token for the transaction. In the `Gas Price` field, you can set the priority gas price for the transaction. This is an optional parameter; if you don't specify it, the transaction will proceed with the current gas price on the blockchain.
 
