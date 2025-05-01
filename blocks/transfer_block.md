@@ -1,6 +1,6 @@
 # Transfer Block
 
-This document describes the **Transfer Block** UI component that allows users to make token transfers. The transfer is made from the wallet that was selected in the **Wallets Block** and comes to the recipient's wallet from the input field. You can also implement token transfers to multiple wallets in the block by switching the slider to `To many wallets` and selecting. You can use this block multiple times and anywhere in your task, but it **MUST** be after the Start and Wallet blocks.
+This document describes the **Transfer Block** UI component that allows users to make token transfers. The transfer is made from the wallet that was selected in the **Wallets Block** and comes to the recipient's wallet from the input field. You can also implement token transfers to multiple wallets in the block by switching the slider to `To many wallets` and selecting. You can use this block multiple times and anywhere in your task, but it **MUST** be after the **Start** and **Wallet** blocks.
 
 <img width="520" alt="Снимок экрана 2025-04-30 в 18 40 46" src="https://github.com/user-attachments/assets/98b96d37-1a82-4a7e-9b5a-9fe774a513ba" />
 
