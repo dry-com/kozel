@@ -15,7 +15,7 @@ The `Amount` field is used to specify the required amount of the native network 
 
 In the `Contract` field, you need to enter the address of the contract to which you are sending the transaction. The `Description TX` field allows you to provide a name for your transaction. It is recommended to use logical names, such as "Moonwell:", since this field serves as a variable that helps you group several **Execute Blocks**. This grouping facilitates the proper mixing of blocks in your task.
 
-The `Input Data` field is the most crucial part of this block, as it contains the data needed to execute the transaction itself. This includes the transaction method (e.g., keccak256) and its parameters in HEX format. In this case, the address of the wallet of the transaction sender is passed as a parameter. However, Kozel includes constant variables, such as <addr> (which represents the wallet address selected in the Wallet Block) and <deadline> (indicating the time to execute the transaction in Timestamp format). You can also create your own variables in the **Variable Block**.
+The `Input Data` field is the most crucial part of this block, as it contains the data needed to execute the transaction itself. This includes the transaction method (e.g., keccak256) and its parameters in HEX format. In this case, the address of the wallet of the transaction sender is passed as a parameter. However, Kozel includes constant variables, such as <addr> (which represents the wallet address selected in the Wallet Block) and <deadline> (indicating the time to execute the transaction in Timestamp format). You can also create your own variables in the [**Variable Block**](https://github.com/dry-com/kozel/blob/main/blocks/variable_block.md).
 
 ## 🖼 Description of block fields
 
