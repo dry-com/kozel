@@ -7,7 +7,11 @@
 
 ## 2. Install latest version of Kozel
 
-https://github.com/user-attachments/assets/fceb2b0a-1742-4e3f-bba6-868f149423cb
+
+
+https://github.com/user-attachments/assets/40732a67-d3d9-456e-a7cc-72b315fba1b1
+
+
 
 1. Visit the [release page](https://github.com/dry-com/kozel/releases) and choose the most recent Kozel release.
 2. Please choose the appropriate version to download based on your operating system.
