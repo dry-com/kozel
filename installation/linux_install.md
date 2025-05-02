@@ -8,16 +8,17 @@
    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
    sudo curl -L "https://github.com/docker/compose/releases/download/v2.29.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
    sudo chmod +x /usr/local/bin/docker-compose
-   docker-compose --version```
+   docker-compose --version
+   ```
 
-If you will have problem with docker like `unable to configure the Docker daemon with file /etc/docker/daemon.json: the following directives are specified both as a flag and in the configuration file: hosts: (from flag: [fd://], from file:`
-try to run
-```
-sudo cp /lib/systemd/system/docker.service /etc/systemd/system/
-sudo sed -i 's/\ -H\ fd:\/\///g' /etc/systemd/system/docker.service
-sudo systemctl daemon-reload
-sudo systemctl restart docker
-```
+   If you will have problem with docker like `unable to configure the Docker daemon with file /etc/docker/daemon.json: the following directives are specified both as a flag and in the configuration file: hosts: (from flag: [fd://], from file:`
+   try to run
+   ```
+   sudo cp /lib/systemd/system/docker.service /etc/systemd/system/
+   sudo sed -i 's/\ -H\ fd:\/\///g' /etc/systemd/system/docker.service
+   sudo systemctl daemon-reload
+   sudo systemctl restart docker
+   ```
 
 ## 2. Install latest version of Kozel
 
