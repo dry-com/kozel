@@ -21,15 +21,15 @@ sudo systemctl restart docker
 
 ## 2. Install latest version of Kozel
 
-https://github.com/user-attachments/assets/fceb2b0a-1742-4e3f-bba6-868f149423cb
+[Screencast from 2025-05-02 17-43-38.webm](https://github.com/user-attachments/assets/09ce890f-7fe1-4e85-a1b7-f77a71de9509)
+
 
 1. Visit the [release page](https://github.com/dry-com/kozel/releases) and choose the most recent Kozel release.
 2. Please choose the appropriate version to download based on your operating system.
-3. After downloading the application file, you will need to remove any restrictions by using the following command:
-   ```bash
-   xattr -d com.apple.quarantine /path/to/file
+3. Run command to install
+   ```sudo dpkg -i kozel_file.deb```
    
-4. After successfully installing the application, install the necessary tools for its proper operation.
+5. After successfully installing the application, install the necessary tools for its proper operation.
 
 <img width="1105" alt="download_tools" src="https://github.com/user-attachments/assets/44d83618-334b-447a-a044-d0f7ff8b2fbf" />
 <img width="1105" alt="download_tools_approve" src="https://github.com/user-attachments/assets/ad925b82-834e-49d2-a47d-5946808aedf3" />
