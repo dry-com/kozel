@@ -14,4 +14,15 @@ https://github.com/user-attachments/assets/cba6b4b5-0714-4d66-b219-55b172be9ded
 
 You can create or delete groups, assign them to wallets, and filter wallets by group.
 
+## Wallets actions
+
+https://github.com/user-attachments/assets/41aaa868-7cdc-450e-b727-dc3f4a0fbe76
+
+You can customize the label for your wallet, view and copy the private key, and link the deposit address of a specific exchange that you have previously added in the [Exchange Settings](https://github.com/dry-com/kozel/blob/main/ui/settings/exchange_settings.md). You also have the option to enable or disable the wallet, link a proxy that you've previously added in the [Proxy Settings](https://github.com/dry-com/kozel/blob/main/ui/settings/proxy_settings.md), or delete the wallet entirely.
+
+## Accounts from seed phrase
+
+In this section, you can import multiple accounts from a single wallet seed phrase.
+
+
 
