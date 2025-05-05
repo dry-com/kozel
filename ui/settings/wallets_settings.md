@@ -22,7 +22,16 @@ You can customize the label for your wallet, view and copy the private key, and 
 
 ## Accounts from seed phrase
 
+https://github.com/user-attachments/assets/24ed4f68-b17d-4f8f-9ffa-2dae8762f637
+
 In this section, you can import multiple accounts from a single wallet seed phrase.
+
+## Import Wallets from private key
+
+https://github.com/user-attachments/assets/63dbe033-c6e0-4b16-80ae-ec78b7b4d7db
+
+You can import wallets by using private keys.
+
 
 
 
