@@ -1,0 +1,1953 @@
+{
+  "name": "MegaETH Teko_1",
+  "id": "4227ea40-f134-40ca-b913-334cb2020dce",
+  "screenshot": null,
+  "nodes": [
+    {
+      "id": "1",
+      "type": "start",
+      "position": {
+        "x": -54.53377475399233,
+        "y": 300
+      },
+      "data": {
+        "label": "Start",
+        "value": 0
+      },
+      "measured": {
+        "width": 300,
+        "height": 119
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "2",
+      "type": "finish",
+      "position": {
+        "x": 4815.251169252595,
+        "y": 2672.221837420263
+      },
+      "data": {
+        "label": "Finish",
+        "task": "MegaETH"
+      },
+      "measured": {
+        "width": 150,
+        "height": 80
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "3",
+      "data": {
+        "label": "wallet"
+      },
+      "position": {
+        "x": 262.18006133018855,
+        "y": 166.06521155128192
+      },
+      "type": "wallet",
+      "measured": {
+        "width": 303,
+        "height": 297
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "4",
+      "data": {
+        "label": "swtNetwork",
+        "value": {
+          "network": "MEGAETH",
+          "value": 6342,
+          "address": "0x4eb2bd7bee16f38b1f4a0a5796fffd028b6040e9"
+        }
+      },
+      "position": {
+        "x": 556.6009479459366,
+        "y": -228.70554897023072
+      },
+      "type": "swtNetwork",
+      "measured": {
+        "width": 303,
+        "height": 367
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "5",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0x176735870dc6c22b4ebfbf519de2ce758de78d94"
+          },
+          "dex": "tkETH",
+          "msg": "0x40c10f19<addr>0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+        }
+      },
+      "position": {
+        "x": 949.8874051065136,
+        "y": 343.78438705302744
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "6",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0xF82ff0799448630eB56Ce747Db840a2E02Cde4D8"
+          },
+          "dex": "tkWBTC",
+          "msg": "0x40c10f19<addr>00000000000000000000000000000000000000000000000000000000001e8480"
+        }
+      },
+      "position": {
+        "x": 1351.856134206394,
+        "y": 385.7443400366953
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "7",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0xFaf334e157175Ff676911AdcF0964D7f54F2C424"
+          },
+          "dex": "tkUSDC",
+          "msg": "0x40c10f19<addr>0000000000000000000000000000000000000000000000000000000077359400"
+        }
+      },
+      "position": {
+        "x": 1734.084856366964,
+        "y": 385.7443400366954
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "8",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0xE9b6e75C243B6100ffcb1c66e8f78F96FeeA727F"
+          },
+          "dex": "cUSD",
+          "msg": "0x40c10f19<addr>00000000000000000000000000000000000000000000003635c9adc5dea00000"
+        }
+      },
+      "position": {
+        "x": 2096.2917153027433,
+        "y": 385.74434003669535
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "9",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x176735870dc6C22B4EBFBf519DE2ce758de78d94"
+          },
+          "dex": "Teko1: Approve Teko tkETH",
+          "msg": "0x095ea7b300000000000000000000000013c051431753fce53eaec02af64a38a273e198d0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      "position": {
+        "x": 2516.090808146729,
+        "y": 406.8175415779841
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "10",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0xFaf334e157175Ff676911AdcF0964D7f54F2C424"
+          },
+          "dex": "Teko: Approve Teko tkUSDC",
+          "msg": "0x095ea7b300000000000000000000000013c051431753fce53eaec02af64a38a273e198d0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      "position": {
+        "x": 2414.2011558898676,
+        "y": 1463.2934759632872
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "11",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x13C051431753FCE53eaEc02aF64a38A273E198d0"
+          },
+          "dex": "Teko1: Deposit Teko tkETH",
+          "msg": "0x8dbdbe6da072655079714a39e433a54033b0e9125a53289162398442302899c8f56f3f910000000000000000000000000000000000000000000000000de0b6b3a7640000<addr>"
+        }
+      },
+      "position": {
+        "x": 2911.370868623797,
+        "y": 400.09298987155205
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "12",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x13C051431753FCE53eaEc02aF64a38A273E198d0"
+          },
+          "dex": "Teko1: Withdraw Teko tkETH",
+          "msg": "0x71b3177aa072655079714a39e433a54033b0e9125a53289162398442302899c8f56f3f910000000000000000000000000000000000000000000000000de0b6b3a7640000<addr><addr>"
+        }
+      },
+      "position": {
+        "x": 3297.894860064155,
+        "y": 394.7036725137571
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "13",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x13C051431753FCE53eaEc02aF64a38A273E198d0"
+          },
+          "dex": "Teko: Deposit Teko tkUSDC",
+          "msg": "0x8dbdbe6d57841b7b735a58794b8d4d8c38644050529cec291846e80e5afa791048c9410a0000000000000000000000000000000000000000000000000000000077359400<addr>"
+        }
+      },
+      "position": {
+        "x": 2794.5,
+        "y": 1467
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "14",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": "0"
+          },
+          "to": {
+            "random": false,
+            "token": "0x13C051431753FCE53eaEc02aF64a38A273E198d0"
+          },
+          "dex": "Teko: Withdraw Teko tkUSDC",
+          "msg": "0x71b3177a57841b7b735a58794b8d4d8c38644050529cec291846e80e5afa791048c9410a0000000000000000000000000000000000000000000000000000000077359400<addr><addr>"
+        }
+      },
+      "position": {
+        "x": 3200.5,
+        "y": 1467
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "15",
+      "data": {
+        "label": "swap",
+        "value": {
+          "network": "MEGAETH",
+          "address": "0xa6b579684e943f7d00d616a48cf99b5147fc57a5",
+          "msg": "",
+          "custom_block": true,
+          "token": {
+            "random": false,
+            "token": "0xe9b6e75c243b6100ffcb1c66e8f78f96feea727f"
+          },
+          "to_token": {
+            "random": false,
+            "to_token": "0xa626f15d10f2b30af1fb0d017f20a579500b5029"
+          },
+          "dexs": [],
+          "randomDex": false,
+          "amount": {
+            "random": false,
+            "amount": "ALL_BALANCE"
+          },
+          "min_amount": "0"
+        }
+      },
+      "position": {
+        "x": 4174,
+        "y": 1036
+      },
+      "type": "swap",
+      "measured": {
+        "width": 303,
+        "height": 762
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "16",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3424,
+        "y": 1015.75
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "17",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 20,
+          "delayTo": 40,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1214,
+        "y": -82.75
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "18",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 20,
+          "delayTo": 40,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1610,
+        "y": -82.75
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "19",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 20,
+          "delayTo": 40,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2056,
+        "y": -124.5
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "20",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 20,
+          "delayTo": 40,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2830,
+        "y": -134.5
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "21",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 20,
+          "delayTo": 40,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3308,
+        "y": -174.5
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "22",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3720.5,
+        "y": -109.75
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "23",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2656.5,
+        "y": 1016
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "24",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3080.5,
+        "y": 1016
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "25",
+      "data": {
+        "label": "swap",
+        "value": {
+          "network": "MEGAETH",
+          "address": "0xa6b579684e943f7d00d616a48cf99b5147fc57a5",
+          "msg": "",
+          "custom_block": true,
+          "token": {
+            "random": false,
+            "token": "0xa626f15d10f2b30af1fb0d017f20a579500b5029"
+          },
+          "to_token": {
+            "random": false,
+            "to_token": "0xe9b6e75c243b6100ffcb1c66e8f78f96feea727f"
+          },
+          "dexs": [],
+          "randomDex": false,
+          "amount": {
+            "random": false,
+            "amount": "ALL_BALANCE"
+          },
+          "min_amount": "0"
+        }
+      },
+      "position": {
+        "x": 4536,
+        "y": 1040
+      },
+      "type": "swap",
+      "measured": {
+        "width": 303,
+        "height": 762
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "26",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 4270,
+        "y": 526.25
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "27",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 20,
+          "delayTo": 40,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2412,
+        "y": -78.5
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "30",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": true,
+            "idRandomBlock": "33",
+            "expired": 1744323281511
+          },
+          "to": {
+            "random": false,
+            "token": "0x4e496c948EF57FD6Fa75fbFdcEB334874542FcF5"
+          },
+          "dex": "RainMakr: Swap_one",
+          "msg": "0xb909e38b000000000000000000000000b944503d07175fd380ec7db91cb8ca845b59f47d0000000000000000000000000000000000000000000000000000000000000000<addr>"
+        }
+      },
+      "position": {
+        "x": -34,
+        "y": 1322
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "31",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "to": {
+            "random": false,
+            "token": "0x4e496c948EF57FD6Fa75fbFdcEB334874542FcF5"
+          },
+          "dex": "RainMakr: Swap_two",
+          "msg": "0x0a7f0c9d000000000000000000000000b944503d07175fd380ec7db91cb8ca845b59f47d<RainMakr: Amount>0000000000000000000000000000000000000000000000000000000000000000<addr>"
+        }
+      },
+      "position": {
+        "x": 712,
+        "y": 1430.75
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "32",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "MEGAETH",
+          "to": {
+            "random": false,
+            "token": "0xb944503d07175fd380ec7db91cb8ca845b59f47d"
+          },
+          "symbol": "RainMakr: Amount",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 341,
+        "y": 1427
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "33",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Amount",
+          "amountFrom": 0.0001,
+          "amountTo": 0.0002,
+          "expired": 1746607371695
+        }
+      },
+      "position": {
+        "x": -439.25,
+        "y": 1562
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "34",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": true,
+            "idRandomBlock": "64",
+            "expired": 1746614022460
+          },
+          "to": {
+            "random": true,
+            "idRandomBlock": "63",
+            "expired": 1746613977742
+          },
+          "dex": "XL: Swap",
+          "msg": "0x1b53b729<addr><XL: random>0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": -366,
+        "y": 2547
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "38",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": true,
+            "idRandomBlock": "62",
+            "expired": 1746608346156
+          },
+          "gas": {
+            "random": false,
+            "amount": 650000000
+          },
+          "to": {
+            "random": false,
+            "token": "0x4eb2bd7bee16f38b1f4a0a5796fffd028b6040e9"
+          },
+          "dex": "Bronto: ETH_WETH",
+          "msg": "0xd0e30db0"
+        }
+      },
+      "position": {
+        "x": 1169,
+        "y": 3121
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "39",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "gas": {
+            "random": false,
+            "amount": 950000000
+          },
+          "to": {
+            "random": false,
+            "token": "0x4eb2bd7bee16f38b1f4a0a5796fffd028b6040e9"
+          },
+          "dex": "Bronto: Approve_WETH",
+          "msg": "0x095ea7b3000000000000000000000000c063017b825091798e60e776be426c54c10cee0c<Bronto: ETH_AMOUNT>"
+        }
+      },
+      "position": {
+        "x": 1567,
+        "y": 3135
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "40",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "gas": {
+            "random": false,
+            "amount": 950000000
+          },
+          "to": {
+            "random": false,
+            "token": "0xc063017b825091798e60e776be426c54c10cee0c"
+          },
+          "dex": "Bronto: Swap",
+          "msg": "0xc04b8d59000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000a0<addr><deadline><Bronto: ETH_AMOUNT>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002b4eb2bd7bee16f38b1f4a0a5796fffd028b6040e9000064130abef84be9cf2343e56247a7896f9962450b08000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 2007,
+        "y": 3137
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "41",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "MEGAETH",
+          "to": {
+            "random": false,
+            "token": "0x130abef84be9cf2343e56247a7896f9962450b08"
+          },
+          "symbol": "Bronto: busdc_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 2434,
+        "y": 3138.75
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "42",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "gas": {
+            "random": false,
+            "amount": 950000000
+          },
+          "to": {
+            "random": false,
+            "token": "0x130abef84be9cf2343e56247a7896f9962450b08"
+          },
+          "dex": "Bronto: Approve_BUSDC",
+          "msg": "0x095ea7b3000000000000000000000000c063017b825091798e60e776be426c54c10cee0cffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      "position": {
+        "x": 2837,
+        "y": 3137
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "43",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "gas": {
+            "random": false,
+            "amount": 950000000
+          },
+          "to": {
+            "random": false,
+            "token": "0xc063017b825091798e60e776be426c54c10cee0c"
+          },
+          "dex": "Bronto: Swap_BUSDC_WETH",
+          "msg": "0xc04b8d59000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000a0<addr><deadline><Bronto: busdc_balance>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002b130abef84be9cf2343e56247a7896f9962450b080000644eb2bd7bee16f38b1f4a0a5796fffd028b6040e9000000000000000000000000000000000000000000"
+        }
+      },
+      "position": {
+        "x": 3229,
+        "y": 3132.5
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "44",
+      "data": {
+        "label": "reqRpc",
+        "value": {
+          "network": "MEGAETH",
+          "to": {
+            "random": false,
+            "token": "0x4eb2bd7bee16f38b1f4a0a5796fffd028b6040e9"
+          },
+          "symbol": "Bronto: weth_balance",
+          "msg": "0x70a08231<addr>"
+        }
+      },
+      "position": {
+        "x": 3666,
+        "y": 3137.5
+      },
+      "type": "reqRpc",
+      "measured": {
+        "width": 303,
+        "height": 453
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "45",
+      "data": {
+        "label": "anyExecute",
+        "value": {
+          "network": "MEGAETH",
+          "amount": {
+            "random": false,
+            "amount": 0
+          },
+          "gas": {
+            "random": false,
+            "amount": 950000000
+          },
+          "to": {
+            "random": false,
+            "token": "0x4eb2bd7bee16f38b1f4a0a5796fffd028b6040e9"
+          },
+          "dex": "Bronto: WETH_ETH",
+          "msg": "0x2e1a7d4d<Bronto: weth_balance>"
+        }
+      },
+      "position": {
+        "x": 4057,
+        "y": 3137
+      },
+      "type": "anyExecute",
+      "measured": {
+        "width": 303,
+        "height": 665
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "46",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1030.5,
+        "y": 1126
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "47",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 20,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 223,
+        "y": 885
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "48",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 20,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 597,
+        "y": 967
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "49",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 120,
+          "delayTo": 200,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 163,
+        "y": 2116.75
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "50",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1411,
+        "y": 2691.25
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "51",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 1851,
+        "y": 2695.25
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "52",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2295,
+        "y": 2697.25
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "53",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 2685,
+        "y": 2697.25
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "54",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3079,
+        "y": 2695.25
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "55",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 30,
+          "delayTo": 60,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3507,
+        "y": 2695.25
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "56",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 3897,
+        "y": 2695.25
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "57",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayBetween": 60,
+          "delayFrom": 100,
+          "delayTo": 300,
+          "typeDelay": "Progress"
+        }
+      },
+      "position": {
+        "x": 874,
+        "y": -238
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 531
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "58",
+      "data": {
+        "label": "delay",
+        "value": {
+          "network": "MEGAETH",
+          "delayFrom": 10,
+          "delayTo": 20,
+          "typeDelay": "Random"
+        }
+      },
+      "position": {
+        "x": 4622,
+        "y": 595.75
+      },
+      "type": "delay",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "60",
+      "data": {
+        "label": "saveVar",
+        "value": {
+          "network": "MEGAETH",
+          "symbol": "Bronto: ETH_AMOUNT",
+          "msg": {
+            "random": true,
+            "idRandomBlock": "62",
+            "expired": 1746608346156,
+            "typeRandom": "Amount"
+          }
+        }
+      },
+      "position": {
+        "x": 774,
+        "y": 3377
+      },
+      "type": "saveVar",
+      "measured": {
+        "width": 303,
+        "height": 347
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "62",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Amount",
+          "amountFrom": 0.00005,
+          "amountTo": 0.0001,
+          "expired": 1746608346156
+        }
+      },
+      "position": {
+        "x": 390.75,
+        "y": 3279.25
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "63",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Addresses/Contracts",
+          "content": "0x707Df50b302a19D0DF51D07CE5fB07703A467712, 0x6dd19ac981934946841de10a03f9edb25e61a142, 0x3be96cCC435fC7ea78cF4Ba82157fB3b925dB5Ff, 0xb6CaD53d69d45e91344f0A2d622975Cf21916e24",
+          "expired": 1746613977742
+        }
+      },
+      "position": {
+        "x": -915.25,
+        "y": 2807.25
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 319
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "64",
+      "data": {
+        "label": "random",
+        "value": {
+          "typeRandom": "Amount",
+          "amountFrom": 0.00015,
+          "amountTo": 0.0002,
+          "expired": 1746614022460
+        }
+      },
+      "position": {
+        "x": -977.25,
+        "y": 2295.25
+      },
+      "type": "random",
+      "measured": {
+        "width": 303,
+        "height": 425
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "65",
+      "data": {
+        "label": "saveVar",
+        "value": {
+          "network": "MEGAETH",
+          "symbol": "XL: random",
+          "msg": {
+            "random": true,
+            "idRandomBlock": "64",
+            "expired": 1746614022460,
+            "typeRandom": "Amount"
+          }
+        }
+      },
+      "position": {
+        "x": -544,
+        "y": 2120
+      },
+      "type": "saveVar",
+      "measured": {
+        "width": 303,
+        "height": 347
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "sourceHandle": "start",
+      "target": "3",
+      "targetHandle": "wallet",
+      "id": "xy-edge__1start-3wallet"
+    },
+    {
+      "source": "3",
+      "sourceHandle": "wallet",
+      "target": "4",
+      "targetHandle": "swtNetwork",
+      "id": "xy-edge__3wallet-4swtNetwork"
+    },
+    {
+      "source": "5",
+      "sourceHandle": "anyExecute",
+      "target": "17",
+      "targetHandle": "delay",
+      "id": "xy-edge__5anyExecute-17delay"
+    },
+    {
+      "source": "17",
+      "sourceHandle": "delay",
+      "target": "6",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__17delay-6anyExecute"
+    },
+    {
+      "source": "6",
+      "sourceHandle": "anyExecute",
+      "target": "18",
+      "targetHandle": "delay",
+      "id": "xy-edge__6anyExecute-18delay"
+    },
+    {
+      "source": "18",
+      "sourceHandle": "delay",
+      "target": "7",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__18delay-7anyExecute"
+    },
+    {
+      "source": "7",
+      "sourceHandle": "anyExecute",
+      "target": "19",
+      "targetHandle": "delay",
+      "id": "xy-edge__7anyExecute-19delay"
+    },
+    {
+      "source": "19",
+      "sourceHandle": "delay",
+      "target": "8",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__19delay-8anyExecute"
+    },
+    {
+      "source": "9",
+      "sourceHandle": "anyExecute",
+      "target": "20",
+      "targetHandle": "delay",
+      "id": "xy-edge__9anyExecute-20delay"
+    },
+    {
+      "source": "20",
+      "sourceHandle": "delay",
+      "target": "11",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__20delay-11anyExecute",
+      "selected": false
+    },
+    {
+      "source": "11",
+      "sourceHandle": "anyExecute",
+      "target": "21",
+      "targetHandle": "delay",
+      "id": "xy-edge__11anyExecute-21delay",
+      "selected": false
+    },
+    {
+      "source": "21",
+      "sourceHandle": "delay",
+      "target": "12",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__21delay-12anyExecute",
+      "selected": false
+    },
+    {
+      "source": "12",
+      "sourceHandle": "anyExecute",
+      "target": "22",
+      "targetHandle": "delay",
+      "id": "xy-edge__12anyExecute-22delay",
+      "selected": false
+    },
+    {
+      "source": "10",
+      "sourceHandle": "anyExecute",
+      "target": "23",
+      "targetHandle": "delay",
+      "id": "xy-edge__10anyExecute-23delay"
+    },
+    {
+      "source": "23",
+      "sourceHandle": "delay",
+      "target": "13",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__23delay-13anyExecute"
+    },
+    {
+      "source": "13",
+      "sourceHandle": "anyExecute",
+      "target": "24",
+      "targetHandle": "delay",
+      "id": "xy-edge__13anyExecute-24delay"
+    },
+    {
+      "source": "24",
+      "sourceHandle": "delay",
+      "target": "14",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__24delay-14anyExecute"
+    },
+    {
+      "source": "14",
+      "sourceHandle": "anyExecute",
+      "target": "16",
+      "targetHandle": "delay",
+      "id": "xy-edge__14anyExecute-16delay"
+    },
+    {
+      "source": "15",
+      "sourceHandle": "swap",
+      "target": "26",
+      "targetHandle": "delay",
+      "id": "xy-edge__15swap-26delay",
+      "selected": false
+    },
+    {
+      "source": "33",
+      "sourceHandle": "random",
+      "target": "30",
+      "targetHandle": "amount",
+      "animated": true,
+      "id": "xy-edge__33random-30amount",
+      "selected": false
+    },
+    {
+      "source": "30",
+      "sourceHandle": "anyExecute",
+      "target": "47",
+      "targetHandle": "delay",
+      "id": "xy-edge__30anyExecute-47delay"
+    },
+    {
+      "source": "47",
+      "sourceHandle": "delay",
+      "target": "32",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__47delay-32reqRpc"
+    },
+    {
+      "source": "32",
+      "sourceHandle": "reqRpc",
+      "target": "48",
+      "targetHandle": "delay",
+      "id": "xy-edge__32reqRpc-48delay"
+    },
+    {
+      "source": "48",
+      "sourceHandle": "delay",
+      "target": "31",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__48delay-31anyExecute"
+    },
+    {
+      "source": "31",
+      "sourceHandle": "anyExecute",
+      "target": "46",
+      "targetHandle": "delay",
+      "id": "xy-edge__31anyExecute-46delay"
+    },
+    {
+      "source": "38",
+      "sourceHandle": "anyExecute",
+      "target": "50",
+      "targetHandle": "delay",
+      "id": "xy-edge__38anyExecute-50delay"
+    },
+    {
+      "source": "50",
+      "sourceHandle": "delay",
+      "target": "39",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__50delay-39anyExecute"
+    },
+    {
+      "source": "39",
+      "sourceHandle": "anyExecute",
+      "target": "51",
+      "targetHandle": "delay",
+      "id": "xy-edge__39anyExecute-51delay"
+    },
+    {
+      "source": "51",
+      "sourceHandle": "delay",
+      "target": "40",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__51delay-40anyExecute"
+    },
+    {
+      "source": "40",
+      "sourceHandle": "anyExecute",
+      "target": "52",
+      "targetHandle": "delay",
+      "id": "xy-edge__40anyExecute-52delay"
+    },
+    {
+      "source": "52",
+      "sourceHandle": "delay",
+      "target": "41",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__52delay-41reqRpc"
+    },
+    {
+      "source": "41",
+      "sourceHandle": "reqRpc",
+      "target": "53",
+      "targetHandle": "delay",
+      "id": "xy-edge__41reqRpc-53delay"
+    },
+    {
+      "source": "53",
+      "sourceHandle": "delay",
+      "target": "42",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__53delay-42anyExecute"
+    },
+    {
+      "source": "42",
+      "sourceHandle": "anyExecute",
+      "target": "54",
+      "targetHandle": "delay",
+      "id": "xy-edge__42anyExecute-54delay"
+    },
+    {
+      "source": "54",
+      "sourceHandle": "delay",
+      "target": "43",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__54delay-43anyExecute"
+    },
+    {
+      "source": "43",
+      "sourceHandle": "anyExecute",
+      "target": "55",
+      "targetHandle": "delay",
+      "id": "xy-edge__43anyExecute-55delay"
+    },
+    {
+      "source": "55",
+      "sourceHandle": "delay",
+      "target": "44",
+      "targetHandle": "reqRpc",
+      "id": "xy-edge__55delay-44reqRpc"
+    },
+    {
+      "source": "44",
+      "sourceHandle": "reqRpc",
+      "target": "56",
+      "targetHandle": "delay",
+      "id": "xy-edge__44reqRpc-56delay"
+    },
+    {
+      "source": "56",
+      "sourceHandle": "delay",
+      "target": "45",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__56delay-45anyExecute"
+    },
+    {
+      "source": "26",
+      "sourceHandle": "delay",
+      "target": "25",
+      "targetHandle": "swap",
+      "id": "xy-edge__26delay-25swap"
+    },
+    {
+      "source": "25",
+      "sourceHandle": "swap",
+      "target": "58",
+      "targetHandle": "delay",
+      "id": "xy-edge__25swap-58delay"
+    },
+    {
+      "source": "27",
+      "sourceHandle": "delay",
+      "target": "9",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__27delay-9anyExecute"
+    },
+    {
+      "source": "62",
+      "sourceHandle": "random",
+      "target": "60",
+      "targetHandle": "toMsg",
+      "animated": true,
+      "id": "xy-edge__62random-60toMsg"
+    },
+    {
+      "source": "60",
+      "sourceHandle": "saveVar",
+      "target": "38",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__60saveVar-38anyExecute"
+    },
+    {
+      "source": "62",
+      "sourceHandle": "random",
+      "target": "38",
+      "targetHandle": "amount",
+      "animated": true,
+      "id": "xy-edge__62random-38amount"
+    },
+    {
+      "source": "22",
+      "sourceHandle": "delay",
+      "target": "15",
+      "targetHandle": "swap",
+      "id": "xy-edge__22delay-15swap"
+    },
+    {
+      "source": "58",
+      "sourceHandle": "delay",
+      "target": "30",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__58delay-30anyExecute"
+    },
+    {
+      "source": "46",
+      "sourceHandle": "delay",
+      "target": "10",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__46delay-10anyExecute",
+      "selected": false
+    },
+    {
+      "source": "57",
+      "sourceHandle": "delay",
+      "target": "27",
+      "targetHandle": "delay",
+      "id": "xy-edge__57delay-27delay"
+    },
+    {
+      "source": "63",
+      "sourceHandle": "random",
+      "target": "34",
+      "targetHandle": "toToken",
+      "animated": true,
+      "id": "xy-edge__63random-34toToken"
+    },
+    {
+      "source": "64",
+      "sourceHandle": "random",
+      "target": "34",
+      "targetHandle": "amount",
+      "animated": true,
+      "id": "xy-edge__64random-34amount"
+    },
+    {
+      "source": "34",
+      "sourceHandle": "anyExecute",
+      "target": "49",
+      "targetHandle": "delay",
+      "id": "xy-edge__34anyExecute-49delay"
+    },
+    {
+      "source": "64",
+      "sourceHandle": "random",
+      "target": "65",
+      "targetHandle": "toMsg",
+      "animated": true,
+      "id": "xy-edge__64random-65toMsg"
+    },
+    {
+      "source": "16",
+      "sourceHandle": "delay",
+      "target": "65",
+      "targetHandle": "saveVar",
+      "id": "xy-edge__16delay-65saveVar"
+    },
+    {
+      "source": "65",
+      "sourceHandle": "saveVar",
+      "target": "34",
+      "targetHandle": "anyExecute",
+      "id": "xy-edge__65saveVar-34anyExecute"
+    },
+    {
+      "source": "4",
+      "sourceHandle": "swtNetwork",
+      "target": "57",
+      "targetHandle": "delay",
+      "id": "xy-edge__4swtNetwork-57delay"
+    },
+    {
+      "source": "49",
+      "sourceHandle": "delay",
+      "target": "60",
+      "targetHandle": "saveVar",
+      "id": "xy-edge__49delay-60saveVar"
+    },
+    {
+      "source": "45",
+      "sourceHandle": "anyExecute",
+      "target": "2",
+      "targetHandle": "finish",
+      "id": "xy-edge__45anyExecute-2finish"
+    }
+  ]
+}
