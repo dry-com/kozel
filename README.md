@@ -428,8 +428,21 @@ Wenn du DOGS und USDT von verschiedenen Wallets in eine Haupt-Wallet konsolidier
 3. **Gib Details ein**: Gib die Token-Vertragsadresse, die Menge (z. B. 55.5, 100, 6789 oder MAX) und die Adresse des Empfängers ein.
 4. **Starte Übertragung**: Beginne den Prozess und erlebe die Einfachheit und Effizienz von Kozel.
 
+
+
+
+<img width="1350" height="897" alt="image" src="https://github.com/user-attachments/assets/960dd4bf-833e-467e-ab2d-d0fad37c4426" />
+<img width="1350" height="897" alt="image" src="https://github.com/user-attachments/assets/e7dcc223-616e-4ccd-bac8-4d14ffe16500" />
+<img width="1350" height="897" alt="image" src="https://github.com/user-attachments/assets/0c4b66ca-29be-4e34-b5e2-f34fe56b79d5" />
+<img width="1350" height="897" alt="image" src="https://github.com/user-attachments/assets/6c33fe35-847b-455c-b73a-50ed0b16c8ed" />
+<img width="1350" height="897" alt="image" src="https://github.com/user-attachments/assets/1de55a22-91f8-4aff-ad78-929f7091e516" />
+<img width="1350" height="897" alt="image" src="https://github.com/user-attachments/assets/f7a6789e-98d4-48b5-866b-9116339f1bee" />
+
+
+
 [![Join our Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/hidden_coding)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aero25x)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/aero25x)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@flaming_chameleon)
+
 
